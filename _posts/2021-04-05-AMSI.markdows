@@ -1,0 +1,115 @@
+---
+title: AMSI
+date: 2021-04-05 00:00:00 Z
+tags:
+- Windows
+license: false
+show_edit_on_github: false
+show_subscribe: false
+---
+
+### ¿Que és?
+
+**AMSI, antimalware Scan Interface, es un mecanismo que permite integrarse con el AV, con el fin final, de investigar procesos que están ocurriendo.**
+
+AMSI ayuda a los antivirus a detectar scripts, como por ejemplo, powershell, Jscript, VBScript, VBA (office macros) o .NET y los envía al AV para analizarlos.
+
+Hay que entender, que los AV realmenten funcionan cuando un fichero toca disco, en cambio si conseguimos evitar esto, tenemos mayores posibilidades de “huir” de los detectores.
+
+En la siguiente imagen, vemos la implementación de AMSI dentro del entorno Windows y como interactúa con los diferentes apartados.
+
+![Imagen10.png](/uploads/AMSI/Imagen10.png)
+
+Las AMSI.DLL se van a cargar en la memoria de PowerShell, y proporcionará unas funciones diferentes. Es interesante conocer que AMSI, no distingue entre un usuario con pocos privilegios y con usuarios Admin, por ejemplo.
+
+Toda la información capturada por esas APIs será eviada a Windows Defender a través de procesos internos llamado Remote Procedure Call (RPC).
+
+Luego WindowsDefender analizará esos datos, y los enviará de vuelta a AMSI.DLL dentro del proceso PowerShell.
+AMSI, tiene diferentes funciones, que están bien detalladas por parte de Microsoft:
+https://docs.microsoft.com/en-us/windows/win32/api/_amsi/
+
+Son [AmsiInitialize](https://docs.microsoft.com/en-us/windows/win32/api/amsi/nf-amsi-amsiinitialize), [AmsiOpenSession](https://docs.microsoft.com/en-us/windows/win32/api/amsi/nf-amsi-amsiopensession), [AmsiScanString](https://docs.microsoft.com/en-us/windows/win32/api/amsi/nf-amsi-amsiscanstring), [AmsiScanBuffer](https://docs.microsoft.com/en-us/windows/win32/api/amsi/nf-amsi-amsiscanbuffer), and [AmsiCloseSession](https://docs.microsoft.com/en-us/windows/win32/api/amsi/nf-amsi-amsiclosesession)
+
+Como suele ocurrir habitualmente, una vez creado, por cierto, se implementó por primera vez en Windows 10, versiones 2016 y 2019 en entornos de servidor, la gente investigará saltárselo.
+
+### Identificación
+
+AMSI Podemos identificarlo de diferentes maneras, tenemos el registro de Windows:
+
+`HKEY_CLASSES_ROOT\CLSID\{fdb00e52-a214-4aa1-8fba-4357bb0072ec}`
+
+
+![Imagen11.png](/uploads/AMSI/Imagen11.png)
+
+Amsi lo que analiza o pasa al AV son **strings**, son cadenas de texto.
+Como vemos en los siguientes ejemplos
+
+![Imagen12.png](/uploads/AMSI/Imagen12.png)
+
+![Imagen13.png](/uploads/AMSI/Imagen13.png)
+
+Puede parecer una tontería pero AMSI se fija en estas cosas, pueden ser **urls, comentarios o nombre de las funciones**.
+
+Una opción, teniendo en cuenta que esto es una introducción a AMSI, y no entrar en temas de hooking with Frida, podemos utilizar **amsifail**.
+
+Aquí tenemos al creador de la herramienta, donde nos habla de AMSI y su herramienta. Incluso en directo cuenta con la **visita de Rasta**, un investigador de seguridad. Merece la pena verlo.
+
+https://www.youtube.com/watch?v=KMEmxuy-wt4
+
+### AMSI.Fail
+
+`AMSI.fail generates obfuscated PowerShell snippets that break or disable AMSI for the current process. The snippets are randomly selected from a small pool of techniques/variations before being obfuscated. Every snippet is obfuscated at runtime/request so that no generated output share the same signatures.`
+
+El ejemplo, que vamos a ver a continuación, intentaremos cargar mimikatz
+
+Primero, verificamos el funcionamiento de AMSI
+
+![Imagen14.png](/uploads/AMSI/Imagen14.png)
+
+Cargamos el script y como es evidente nos salta.
+
+
+![Imagen15.png](/uploads/AMSI/Imagen15.png)
+
+Nos vamos a la web https://amsi.fail/ y generamos un código.
+
+![Imagen16.png](/uploads/AMSI/Imagen16.png)
+
+Esté código generado, lo pegamos en nuestra PowerShell
+
+![Imagen17.png](/uploads/AMSI/Imagen17.png)
+
+En el marco amarillo, cargamos mimi directamente en memoria.
+Listamos las funciones.
+
+![Imagen18.png](/uploads/AMSI/Imagen18.png)
+
+Vemos como mimi se cargó correctamente.
+
+![Imagen19.png](/uploads/AMSI/Imagen19.png)
+
+### Otras formas de bypassear AMSI
+
+Puede ser un poco engorroso el proceso llevado a cabo, asique os traigo otras formas de saltarnos está protección.
+
+**PowerShell 2.0, no soporta AMSI**
+
+![Imagen20.png](/uploads/AMSI/Imagen20.png)
+
+En la imágen anterior, vemos como tenemos compatibilidad con powershell 2.0, ejecutamos con powershell.exe -version 2
+
+![Imagen21.png](/uploads/AMSI/Imagen21.png)
+
+![Imagen22.png](/uploads/AMSI/Imagen22.png)
+
+**Desactivando el realtimemonitoring (necesitamos permisos)**
+
+`Set-MpPreference -DisableRealtimeMonitoring $True`
+
+![Imagen23.png](/uploads/AMSI/Imagen23.png)
+
+![Imagen24.png](/uploads/AMSI/Imagen24.png)
+
+
+
+Espero que haya sido interesante 😊
