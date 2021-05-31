@@ -1,6 +1,6 @@
 ---
 title: AMSI
-date: 2021-04-05 00:00:00 Z
+date: 2021-04-05 02:00:00 +02:00
 tags:
 - Windows
 license: false
