@@ -47,7 +47,7 @@ Tenemos opciones:
 Dentro de estás formas, tenemos difentes técnicas, como dropper/downloadders, como la inyección en memoria.
 
 
-Las macros que nos podemos encontrar son de dos tipo:
+Las macros principales que nos podemos encontrar, y englobando unicamente ficheros office, son de dos tipo:
 
 * Visual Basic macros VBA
 * Excel 4.0
