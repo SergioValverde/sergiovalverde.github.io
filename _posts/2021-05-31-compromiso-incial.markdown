@@ -39,21 +39,27 @@ Tenemos opciones:
 [T1566.002](https://attack.mitre.org/techniques/T1566/002/) 	Spearphishing Link
 [T1566.003](https://attack.mitre.org/techniques/T1566/003/) 	Spearphishing via Service 
 
-Dentro de estás formas, tenemos difentes técnicas, como dropper o downloadders, como la inyección en memoria.
+Dentro de estás formas, tenemos difentes técnicas, como dropper/downloadders, como la inyección en memoria.
 
 
 Las macros que nos podemos encontrar son de dos tipo:
 
-Visual Basic macros VBA
-Excel 4.0
+* Visual Basic macros VBA
+* Excel 4.0
 
 Y las funciones más comunes para realizar la ejecución son 
 WorkBook_Open() o Document_Open(), Auto_Open()
 
 
+Aunque existen otras, como Autocierre, Autoexit.
+
+Realizaré dos ejemplos, en un primer ejermplo, utilizaremos la herramienta covenant como C2 y utilizaremos un fichero word con macros para instalar nuestra implante o grunt, como es conocido en covenant.
+
+En un segundo ejemplo, utilizaremos Cobalt Strike como C2, y las macros Excel 4.0 como vector de acceso.
 
 
+Covenant
 
+En un primer paso, debemos crear un listener
 
-Continuará...
-
+![Imagen001.png](/uploads/InitialAccess/Imagen001.png)
