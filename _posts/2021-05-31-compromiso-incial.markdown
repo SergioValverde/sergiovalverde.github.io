@@ -88,7 +88,7 @@ Una vez generado y descargado en nuestra máquina local, debemos enviarlo  al eq
 
 Puede dar el caso, que tuviesemos acceso interno dentro de la organización, en este caso deberíamos desplegar el implante, esto es posible, levantando un servidor y realizando la descarga vía powershell , o  del binario certutil.exe 
 
-A la hora de realizar este ejercicio, Windows Defenders saltará y nos eliminará el implante. Debemos identificar posibles bypasses, pero en este artítulo no entrarémos en ello.
+A la hora de realizar este ejercicio, Windows Defenders saltará y nos eliminará el implante. Debemos identificar posibles bypasses, pero en este artítulo no entrarémos en ello. En la siguiente imágen, vemos la alerta genera por WD.
 
 ![image006.png](/uploads/InitialAccess/image006.png)
 
