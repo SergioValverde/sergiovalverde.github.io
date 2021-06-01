@@ -88,7 +88,7 @@ Depende del escenario que nos encontremos, debemos realizar unas técnicas u otr
 
 Puede dar el caso, que tuviesemos acceso interno dentro de la organización, en este caso deberíamos desplegar el implante, esto es posible, levantando un servidor y realizando la descarga vía powershell , o  del binario certutil.exe 
 
-A la hora de realizar este ejercicio, Windows Defenders saltará y nos eliminará el implante.
+A la hora de realizar este ejercicio, Windows Defenders saltará y nos eliminará el implante. Debemos identificar posibles bypasses, pero en este artítulo no entrarémos en ello.
 
 ![image006.png](/uploads/InitialAccess/image006.png)
 
