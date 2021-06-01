@@ -60,8 +60,6 @@ Aunque existen otras, como Autocierre, Autoexit.
 
 Realizaré dos ejemplos, en un primer ejermplo, utilizaremos la herramienta covenant como C2 y utilizaremos un fichero word con macros para instalar nuestra implante o grunt, como es conocido en covenant.
 
-En un segundo ejemplo, utilizaremos Cobalt Strike como C2, y las macros Excel 4.0 como vector de acceso.
-
 
 Covenant
 
