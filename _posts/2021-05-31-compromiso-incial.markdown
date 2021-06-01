@@ -106,7 +106,7 @@ Se nos generan dos alertas
 Una primera alerta, la creación del fichero
 ![image008.png](/uploads/InitialAccess/image008.png)
 
-Y una segunda alerta,
+Y una segunda alerta, la conexión entre ambos equipos
 
 ![image009.png](/uploads/InitialAccess/image009.png)
 
