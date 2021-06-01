@@ -181,6 +181,7 @@ El primer paso, es la creación de un proceso:
 
 ![image023.png](/uploads/InitialAccess/image023.png)
 
+![image024.png](/uploads/InitialAccess/image024.png)
 Elastic, nos genera 6 alertas recibiendo el nombre de Provider Lifecycle
 
 Estas alertas, se tratan de activar diferentes providers, entre ellos son Variable, function, filesystem, Environment, Alias, Registry.
@@ -188,28 +189,28 @@ Estas alertas, se tratan de activar diferentes providers, entre ellos son Variab
 
 La información que contienen es la siguiente:
 
-![image024.png](/uploads/InitialAccess/image024.png)
+![image025.png](/uploads/InitialAccess/image025.png)
 
 La siguiente alerta con código 4104, execute a command:
 
-![image025.png](/uploads/InitialAccess/image025.png)
+![image026.png](/uploads/InitialAccess/image026.png)
 
 Siguiendo con las conexiones de red para descargar y establecimiento de la conexión 
 
-![image026.png](/uploads/InitialAccess/image026.png)
+![image027.png](/uploads/InitialAccess/image027.png)
 
 Y por ultimo
 
-![image027.png](/uploads/InitialAccess/image027.png)
+![image028.png](/uploads/InitialAccess/image028.png)
 
 
 Podemos seguir investigando con process explorer, vemos que powershell se ejecuta tras como un proceso hijo de explorer.exe
 
-![image028.png](/uploads/InitialAccess/image028.png)
+![image029.png](/uploads/InitialAccess/image029.png)
 
 Podemos revisar las conexiónes de red, y ver que se tratan de procesos de powershell
 
-![image029.png](/uploads/InitialAccess/image029.png)
+![image030.png](/uploads/InitialAccess/image030.png)
 
 
 
