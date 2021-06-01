@@ -81,7 +81,7 @@ Debemos especificar el listener, entre otros apartados. Y generamos nuestro prim
 
 ![image005.png](/uploads/InitialAccess/image005.png)
 
-Una vez genereado y descargado, debemos enviarlo a el equipo del usuario, existen diferentes formas de realizarlo. 
+Una vez generado y descargado en nuestra máquina local, debemos enviarlo  al equipo del usuario.
 
 
 Continuará...
