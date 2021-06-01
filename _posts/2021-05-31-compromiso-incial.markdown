@@ -125,6 +125,8 @@ Como vemos los procesos son diferentes, a diferencia, no se llega a crear una al
 
 ### Ejecución
 
+En este paso, ejecutaremos el binario con el objetivo de obtener una conexión entre ambos equipo y también, para ver que información estamos generando.
+
 Se nos genera la siguiente información:
 
 ![image011.png](/uploads/InitialAccess/image011.png)
