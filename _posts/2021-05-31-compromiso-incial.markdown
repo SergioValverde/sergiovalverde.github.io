@@ -147,6 +147,23 @@ QueryDNS:
 
 Conexión realiza, debería aparecernos un nuevo grunt.
 
+![image016.png](/uploads/InitialAccess/image016.png)
+
+
+
+Como decía anteriormente, el contexto mostrado ahora es diferete. Ya que nos encontramos fuera de la red y queremos acceder de manera interna.
+
+En este caso, utilizaremos las macros de word. En concreto una especifíca para bypassear AV´s.
+
+Parent PID and Command-line Argument Spoofing
+
+[T1134](https://attack.mitre.org/techniques/T1134/004/)
+`
+PPID spoofing is a technique that allows attackers to start programs with arbitrary parent process set. This helps attackers make it look as if their programs were spawned by another process (instead of the one that would have spawned it if no spoofing was done) and it may help evade detections, that are based on parent/child process relationships. `
+
+Utilizaremos esta macro : https://raw.githubusercontent.com/christophetd/spoofing-office-macro/master/macro64.vba
+
+
 
 
 
