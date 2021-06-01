@@ -223,3 +223,8 @@ Podemos seguir investigando con process explorer, vemos que powershell se ejecut
 Podemos revisar las conexiónes de red, y ver que se tratan de procesos de powershell
 
 ![image032.png](/uploads/InitialAccess/image032.png)
+
+Existen otras herramientas como process hacker y observamos como se representan las conexiones entre equiop víctima y equipo atacante.
+
+
+![image035.png](/uploads/InitialAccess/image035.png)
