@@ -168,6 +168,11 @@ Está sin lugar a dudas es muy interesante, a resaltar, el proceso hijo obtiene 
 
 Utilizaremos esta macro : https://raw.githubusercontent.com/christophetd/spoofing-office-macro/master/macro64.vba
 
+Leyendo el código fuente, observamos llamadas a las APIS CreateProcess, OpenProcess, UpdateProcThreadAttribute
+
+Seguimos leyendo, tenemos la función Sub AutoOpen(), donde tenemos la ejecución de powershell origina, la variable pid = getPidByName("explorer.exe") y por último la ejecución del memoría de nuestro payload.
+
+
 
 
 El primer paso, generamos la macro.
