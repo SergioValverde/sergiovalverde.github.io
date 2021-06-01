@@ -8,10 +8,10 @@ show_subscribe: false
 
 En esta series de artículos intentare mostrar y detallar técnicas tanto ofensivas como defensivas.
 
-Si deseas proponer alguna mejora, o algún comentario, ya sea duda o simplemente conocer más sobre esto, por favor, sin miedo escribe por telegram o twitter :)!
+Si deseas proponer alguna mejora, o algún comentario, ya sea duda o simplemente conocer más sobre esto, por favor, sin miedo escribe por telegram o twitter :)
 
 
-Infraestructura:
+### Infraestructura:
 
 - Debian 10 , corriendo ELK
 - Windows 10, ordenador del usuario, corriendo sysmon.
