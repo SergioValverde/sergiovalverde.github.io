@@ -38,9 +38,11 @@ Existen diferentes técnicas,  y diferentes formas para obtener un acceso inicia
 
 Tenemos opciones:
 
-[T1566.001](https://attack.mitre.org/techniques/T1566/001/) 	Spearphishing Attachment
-[T1566.002](https://attack.mitre.org/techniques/T1566/002/) 	Spearphishing Link
-[T1566.003](https://attack.mitre.org/techniques/T1566/003/) 	Spearphishing via Service 
+* [T1566.001](https://attack.mitre.org/techniques/T1566/001/) 	Spearphishing Attachment
+
+* [T1566.002](https://attack.mitre.org/techniques/T1566/002/) 	Spearphishing Link
+
+* [T1566.003](https://attack.mitre.org/techniques/T1566/003/) 	Spearphishing via Service 
 
 Dentro de estás formas, tenemos difentes técnicas, como dropper/downloadders, como la inyección en memoria.
 
