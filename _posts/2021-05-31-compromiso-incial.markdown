@@ -164,6 +164,8 @@ Parent PID and Command-line Argument Spoofing
 `
 PPID spoofing is a technique that allows attackers to start programs with arbitrary parent process set. This helps attackers make it look as if their programs were spawned by another process (instead of the one that would have spawned it if no spoofing was done) and it may help evade detections, that are based on parent/child process relationships. `
 
+Está sin lugar a dudas es muy interesante, a resaltar, el proceso hijo obtiene los privilegios del proceso padre.
+
 Utilizaremos esta macro : https://raw.githubusercontent.com/christophetd/spoofing-office-macro/master/macro64.vba
 
 
