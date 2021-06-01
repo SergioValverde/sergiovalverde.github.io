@@ -109,7 +109,7 @@ Se nos generan dos alertas
 
 Una primera alerta, 
 
-![image008.png](/uploads/InitialAccess/image008.png)
+![image009.png](/uploads/InitialAccess/image009.png)
 
 Y una segunda alerta,
 
@@ -165,6 +165,6 @@ Utilizaremos esta macro : https://raw.githubusercontent.com/christophetd/spoofin
 
 
 
-
+El primer paso, generamos la macro.
 
 
