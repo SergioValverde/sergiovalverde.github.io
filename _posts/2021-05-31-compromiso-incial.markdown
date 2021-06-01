@@ -20,7 +20,7 @@ Infraestructura:
 A nivel de herramientas, utilizaré Covenant, como command and control.
 
 
-Acceso Inicial
+# Acceso Inicial
 
 Una vez realizado el reconocimiento de la entidad a analizar y sus trabajadores, mediante técnicas de osint, por ejemplo. Debemos buscar el foothold en la entidad.
 
