@@ -1,6 +1,7 @@
 ---
 title: Compromiso Incial
 date: 2021-05-31 18:33:00 +02:00
+show_edit_on_github: false
 show_subscribe: false
 ---
 
