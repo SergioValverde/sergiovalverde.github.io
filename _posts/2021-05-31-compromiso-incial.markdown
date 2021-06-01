@@ -170,6 +170,47 @@ Utilizaremos esta macro : https://raw.githubusercontent.com/christophetd/spoofin
 
 El primer paso, generamos la macro.
 
-![image016.png](/uploads/InitialAccess/image016.png)
+![image021.png](/uploads/InitialAccess/image021.png)
+
+
+Y ya una vez ejecutado por el usuario. Nos genera la siguiente información.
+
+![image022.png](/uploads/InitialAccess/image022.png)
+
+El primer paso, es la creación de un proceso:
+
+![image023.png](/uploads/InitialAccess/image023.png)
+
+Elastic, nos genera 6 alertas recibiendo el nombre de Provider Lifecycle
+
+Estas alertas, se tratan de activar diferentes providers, entre ellos son Variable, function, filesystem, Environment, Alias, Registry.
+
+
+La información que contienen es la siguiente:
+
+![image024.png](/uploads/InitialAccess/image024.png)
+
+La siguiente alerta con código 4104, execute a command:
+
+![image025.png](/uploads/InitialAccess/image025.png)
+
+Siguiendo con las conexiones de red para descargar y establecimiento de la conexión 
+
+![image026.png](/uploads/InitialAccess/image026.png)
+
+Y por ultimo
+
+![image027.png](/uploads/InitialAccess/image027.png)
+
+
+Podemos seguir investigando con process explorer, vemos que powershell se ejecuta tras como un proceso hijo de explorer.exe
+
+![image028.png](/uploads/InitialAccess/image028.png)
+
+Podemos revisar las conexiónes de red, y ver que se tratan de procesos de powershell
+
+![image029.png](/uploads/InitialAccess/image029.png)
+
+
 
 
