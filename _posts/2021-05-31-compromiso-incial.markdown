@@ -65,21 +65,21 @@ Covenant
 
 En un primer paso, debemos crear un listener
 
-![imagen001.png](/uploads/InitialAccess/imagen001.png)
+![image001.png](/uploads/InitialAccess/image001.png)
 
 El siguiente paso será configurar las opciones, debemos comprobar la dirección IP a la que queremos que se conecte nuestro grunt
 
-![imagen002.png](/uploads/InitialAccess/imagen002.png)
+![image002.png](/uploads/InitialAccess/image002.png)
 
 El siguiente paso, será crear nuestro payload, nos vamos al tab Launchers
 
-![imagen004.png](/uploads/InitialAccess/imagen004.png)
+![image004.png](/uploads/InitialAccess/image004.png)
 
 En este ejemplo, utilizamos un binario .net, pero podemos utilizar cualquuier otro.
 
 Debemos especificar el listener, entre otros apartados. Y generamos nuestro primer launcher.
 
-![imagen005.png](/uploads/InitialAccess/imagen005.png)
+![image005.png](/uploads/InitialAccess/image005.png)
 
 Una vez genereado y descargado, debemos enviarlo a el equipo del usuario, existen diferentes formas de realizarlo. 
 
