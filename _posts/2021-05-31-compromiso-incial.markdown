@@ -71,7 +71,7 @@ El siguiente paso será configurar las opciones, debemos comprobar la dirección
 
 ![image002.png](/uploads/InitialAccess/image002.png)
 
-El siguiente paso, será crear nuestro payload, nos vamos al tab Launchers
+El siguiente paso, **será crear nuestro payload**, nos vamos al tab Launchers
 
 ![image004.png](/uploads/InitialAccess/image004.png)
 
