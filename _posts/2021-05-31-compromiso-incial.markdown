@@ -103,7 +103,7 @@ Se nos generan dos alertas
 
 ![image007.png](/uploads/InitialAccess/image007.png)
 
-Una primera alerta, 
+Una primera alerta, la creación del fichero
 ![image008.png](/uploads/InitialAccess/image008.png)
 
 Y una segunda alerta,
