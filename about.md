@@ -3,4 +3,4 @@ layout: article
 key: page-about
 ---
 
-Purple Team :rage3:
+Estudiante de ciberseguridad. Intentando entender y comprender lo que nos rodea.  
