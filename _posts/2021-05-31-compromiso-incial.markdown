@@ -165,8 +165,10 @@ En este caso, utilizaremos las macros de word. En concreto una especifíca para 
 ### Parent PID and Command-line Argument Spoofing
 
 [T1134](https://attack.mitre.org/techniques/T1134/004/)
+
 `
-PPID spoofing is a technique that allows attackers to start programs with arbitrary parent process set. This helps attackers make it look as if their programs were spawned by another process (instead of the one that would have spawned it if no spoofing was done) and it may help evade detections, that are based on parent/child process relationships. `
+PPID spoofing is a technique that allows attackers to start programs with arbitrary parent process set. This helps attackers make it look as if their programs were spawned by another process (instead of the one that would have spawned it if no spoofing was done) and it may help evade detections, that are based on parent/child process relationships. 
+`
 
 Está sin lugar a dudas es muy interesante, a resaltar, el proceso hijo obtiene los privilegios del proceso padre.
 
