@@ -83,7 +83,7 @@ Debemos especificar el listener, entre otros apartados. Y generamos nuestro prim
 
 Una vez generado y descargado en nuestra máquina local, debemos enviarlo  al equipo del usuario.
 
-Depende del escenario que nos encontremos, debemos realizar unas técnicas u otras.
+**Depende del escenario que nos encontremos, debemos realizar unas técnicas u otras.**
 
 
 Puede dar el caso, que tuviesemos acceso interno dentro de la organización, en este caso deberíamos desplegar el implante, esto es posible, levantando un servidor y realizando la descarga vía powershell , o  del binario certutil.exe 
