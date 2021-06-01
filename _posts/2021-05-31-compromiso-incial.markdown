@@ -58,7 +58,7 @@ WorkBook_Open() o Document_Open(), Auto_Open()
 
 Aunque existen otras, como Autocierre, Autoexit.
 
-Realizaré dos ejemplos, en un primer ejermplo, utilizaremos la herramienta covenant como C2 y utilizaremos un fichero word con macros para instalar nuestra implante o grunt, como es conocido en covenant.
+En este primer ejemplo, utilizaremos la herramienta covenant como C2 y utilizaremos un fichero word con macros para instalar nuestra implante o grunt, como es conocido en covenant.
 
 
 ### Covenant
