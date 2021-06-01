@@ -1,6 +1,10 @@
 ---
 title: Compromiso Incial - En Construcción
 date: 2021-05-31 18:33:00 +02:00
+tags:
+- VBA 
+- Covenant
+- Oletools
 license: false
 show_edit_on_github: false
 show_subscribe: false
