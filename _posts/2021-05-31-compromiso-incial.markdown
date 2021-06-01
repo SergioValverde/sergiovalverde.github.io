@@ -195,23 +195,24 @@ La siguiente alerta con código 4104, execute a command:
 
 ![image026.png](/uploads/InitialAccess/image026.png)
 
-Siguiendo con las conexiones de red para descargar y establecimiento de la conexión 
-
 ![image027.png](/uploads/InitialAccess/image027.png)
 
-Y por ultimo
+Siguiendo con las conexiones de red para descargar y establecimiento de la conexión 
 
 ![image028.png](/uploads/InitialAccess/image028.png)
 
-
-Podemos seguir investigando con process explorer, vemos que powershell se ejecuta tras como un proceso hijo de explorer.exe
-
 ![image029.png](/uploads/InitialAccess/image029.png)
 
-Podemos revisar las conexiónes de red, y ver que se tratan de procesos de powershell
+
+Y por ultimo
 
 ![image030.png](/uploads/InitialAccess/image030.png)
 
 
+Podemos seguir investigando con process explorer, vemos que powershell se ejecuta tras como un proceso hijo de explorer.exe
 
+![image031.png](/uploads/InitialAccess/image031.png)
 
+Podemos revisar las conexiónes de red, y ver que se tratan de procesos de powershell
+
+![image032.png](/uploads/InitialAccess/image032.png)
