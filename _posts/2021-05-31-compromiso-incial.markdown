@@ -170,7 +170,7 @@ Utilizaremos esta macro : https://raw.githubusercontent.com/christophetd/spoofin
 
 Leyendo el código fuente, observamos llamadas a las APIS CreateProcess, OpenProcess, UpdateProcThreadAttribute
 
-Seguimos leyendo, tenemos la función Sub AutoOpen(), donde tenemos la ejecución de powershell origina, la variable pid = getPidByName("explorer.exe") y por último la ejecución del memoría de nuestro payload.
+Seguimos leyendo, tenemos la función Sub AutoOpen(), donde tenemos la ejecución de powershell original, la variable pid = getPidByName("explorer.exe") y por último la ejecución del memoría de nuestro payload.
 
 
 
@@ -216,7 +216,7 @@ Y por ultimo
 ![image030.png](/uploads/InitialAccess/image030.png)
 
 
-Podemos seguir investigando con process explorer, vemos que powershell se ejecuta tras como un proceso hijo de explorer.exe
+Podemos seguir investigando con process explorer, vemos que powershell se ejecuta como un proceso hijo de explorer.exe
 
 ![image031.png](/uploads/InitialAccess/image031.png)
 
