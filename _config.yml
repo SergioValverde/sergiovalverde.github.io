@@ -95,8 +95,8 @@ search:
   provider: default
   google:
     custom_search_engine_id: 
-analytics: google
-  provider: false
+analytics: 
+  provider: google
   google:
     tracking_id: UA-162610726-1
     anonymize_ip: false
