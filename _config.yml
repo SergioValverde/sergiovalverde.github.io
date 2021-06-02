@@ -96,9 +96,9 @@ search:
   google:
     custom_search_engine_id: 
 analytics: 
-  provider: 
+  provider: google
   google:
-    tracking_id: UA-162610726
+    tracking_id: UA-162610726-1
     anonymize_ip: false
 markdown: kramdown
 highlighter: rouge
