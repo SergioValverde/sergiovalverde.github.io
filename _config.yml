@@ -95,7 +95,7 @@ search:
   provider: default
   google:
     custom_search_engine_id: 
-analytics:
+analytics: google
   provider: false
   google:
     tracking_id: UA-162610726-1
