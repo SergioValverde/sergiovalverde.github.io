@@ -98,7 +98,7 @@ search:
 analytics: 
   provider: google
   google:
-    tracking_id: UA-162610726-1
+    tracking_id: UA-162610726-1 
     anonymize_ip: false
 markdown: kramdown
 highlighter: rouge
