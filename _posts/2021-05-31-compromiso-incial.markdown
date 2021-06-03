@@ -30,7 +30,7 @@ Una vez realizado el reconocimiento de la entidad a analizar y sus trabajadores,
 
 La principal manera para acceder internamente dentro de una organización es a través de las macros de office.
 
-Surge un pequeñó problema, para ello necesitamos que el usuario active las macros pero resultará de manera sencilla ya que en una fase anterior, hemos recopilado toda información sobre el usuario, asique debemos utilizar la información consegida durante esa fase de reconocimiento y aplicarlo.
+Surge un pequeñó problema, para ello necesitamos que el usuario active las macros pero resultará de manera sencilla ya que en una fase anterior, hemos recopilado toda información sobre el usuario, asique debemos utilizar la información conseguida durante esa fase de reconocimiento y aplicarlo.
 
 
 
