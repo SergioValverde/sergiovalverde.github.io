@@ -237,12 +237,24 @@ Existen otras herramientas como process hacker y observamos como se representan 
 
 # Analizando Documentos Offices
 
-A la hora de analizar fichero offices tenemos diferentes formas ade llevarlo acabo, existen herramientas automatizadas como anyrun o VT. 
+A la hora de analizar fichero offices tenemos diferentes formas ade llevarlo acabo, existen herramientas automatizadas como anyrun o VT. U otras herramientas como oledump, olevba,  vipermonkey
 
-O la realización de análisis estático 
+A la hora de analizar un incidente de seguridad, realizar un análisis automatizado puede que sea la opción más correcta. Una rápida respuesta a esta situción es crítico.
 
-Estás herramientas 
+En tal caso, AnyRun es una buena utilidad para analizar estos ficheros. 
 
+
+![image036.png](/uploads/InitialAccess/image036.png)
+
+
+
+Como podemos observar, disponemos de diferentes paneles para observar la información. Solicitudes HTTP, Conexiones, processos ejecutados, así como indicadores de coompromiso.
+
+En este caso, vemos la ejecución de un powershell ofuscado en base64.
+
+Podemos visualizar el instrucción con el comando:
+
+> echo "churro" | base64 -d
 
 
 
