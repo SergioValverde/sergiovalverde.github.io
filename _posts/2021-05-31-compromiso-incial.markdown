@@ -271,7 +271,7 @@ Esta misma información, es exactamente la misma información obtenida a través
 
 En otras situaciones, anyrun no es capaz de detectar este comportamiento.
 
-![image036.png](/uploads/InitialAccess/image036.png)
+![image037.png](/uploads/InitialAccess/image037.png)
 
 En estos casos, es necesario realizar un análisis más a fondo del documento.
 
