@@ -166,8 +166,7 @@ En este caso, utilizaremos las macros de word. En concreto una especifíca para 
 
 [T1134 ](https://attack.mitre.org/techniques/T1134/004/)- Parent PID Spoofing 
 
-
-`PPID spoofing is a technique that allows attackers to start programs with arbitrary parent process set. This helps attackers make it look as if their programs were spawned by another process (instead of the one that would have spawned it if no spoofing was done) and it may help evade detections, that are based on parent/child process relationships. `
+> PPID spoofing is a technique that allows attackers to start programs with arbitrary parent process set. This helps attackers make it look as if their programs were spawned by another process (instead of the one that would have spawned it if no spoofing was done) and it may help evade detections, that are based on parent/child process relationships.
 
 
 Está sin lugar a dudas es muy interesante, a resaltar, el proceso hijo obtiene los privilegios del proceso padre.
@@ -254,7 +253,7 @@ En este caso, vemos la ejecución de un powershell ofuscado en base64.
 
 Podemos visualizar el instrucción con el comando:
 
-> echo "churro" | base64 -d
+`echo "churro" | base64 -d`
 
 
 
