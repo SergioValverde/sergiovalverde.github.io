@@ -1,10 +1,6 @@
 ---
 title: Compromiso Incial - En Construcción
 date: 2021-05-31 18:33:00 +02:00
-tags:
-- VBA 
-- Covenant
-- Oletools
 license: false
 show_edit_on_github: false
 show_subscribe: false
@@ -30,7 +26,7 @@ Una vez realizado el reconocimiento de la entidad a analizar y sus trabajadores,
 
 La principal manera para acceder internamente dentro de una organización es a través de las macros de office.
 
-Surge un pequeñó problema, para ello necesitamos que el usuario active las macros pero resultará de manera sencilla ya que en una fase anterior, hemos recopilado toda información sobre el usuario, asique debemos utilizar la información conseguida durante esa fase de reconocimiento y aplicarlo.
+Surge un pequeñó problema, para ello necesitamos que el usuario active las macros pero resultará de manera sencilla ya que en una fase anterior, hemos recopilado toda información sobre el usuario, asique debemos utilizar la información consegida durante esa fase de reconocimiento y aplicarlo.
 
 
 
@@ -38,7 +34,7 @@ Es conveniente recalcar, que estás tecnicas realmenten funcionan, y cada cuál 
 
 
 
-Existen diferentes técnicas,  y diferentes formas para obtener un acceso inicial.
+Existen diferentes tácticas,  y diferentes técnicas para obtener un acceso inicial.
 
 Tenemos opciones:
 
@@ -90,7 +86,7 @@ Una vez generado y descargado en nuestra máquina local, debemos enviarlo  al eq
 **Depende del escenario que nos encontremos, debemos realizar unas técnicas u otras.**
 
 
-Puede dar el caso, que tuviesemos acceso interno dentro de la organización, en este caso deberíamos desplegar el implante, esto es posible, levantando un servidor y realizando la descarga vía powershell , o del binario certutil.exe o bitsadmin.exe
+Puede dar el caso, que tuviesemos acceso interno dentro de la organización, en este caso deberíamos desplegar el implante, esto es posible, levantando un servidor y realizando la descarga vía powershell , o  del binario certutil.exe 
 
 A la hora de realizar este ejercicio, Windows Defenders saltará y nos eliminará el implante. Debemos identificar posibles bypasses, pero en este artítulo no entrarémos en ello. En la siguiente imágen, vemos la alerta genera por WD.
 
@@ -234,6 +230,7 @@ Podemos revisar las conexiónes de red, y ver que se tratan de procesos de power
 
 ![image032.png](/uploads/InitialAccess/image032.png)
 
-Existen otras herramientas como process hacker y observamos como se representan las conexiones entre equipo víctima y equipo atacante.
+Existen otras herramientas como process hacker y observamos como se representan las conexiones entre equiop víctima y equipo atacante.
+
 
 ![image035.png](/uploads/InitialAccess/image035.png)
