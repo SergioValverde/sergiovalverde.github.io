@@ -238,7 +238,7 @@ Existen otras herramientas como process hacker y observamos como se representan 
 
 A la hora de analizar fichero offices tenemos diferentes formas ade llevarlo acabo, existen herramientas automatizadas como anyrun o VT. U otras herramientas como oledump, olevba.
 
-A la hora de analizar un incidente de seguridad, realizar un análisis automatizado puede que sea la opción más correcta. Una rápida respuesta a esta situción es crítico.
+**A la hora de analizar un incidente de seguridad, realizar un análisis automatizado puede que sea la opción más correcta. Una rápida respuesta a esta situción es crítico.**
 
 En tal caso, AnyRun es una buena utilidad para analizar estos ficheros. 
 
@@ -299,7 +299,7 @@ Este paso debería ir haciendolo por cada macro encontrada.
 
 Como vemos, podemos obtener toda la información necesario para tener los suficientes indicadores para responder ante las siguientes pregunta.
 
-¿Es malicio este fichero?¿Que comportamiento tiene?¿Que urls pertenecen a la organización?
+**¿Es malicio este fichero?¿Que comportamiento tiene?¿Que urls pertenecen a la organización?**
 
 
 
