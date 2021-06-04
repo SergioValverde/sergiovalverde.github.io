@@ -292,6 +292,14 @@ Como vemos, este paso debería ir haciendolo por cada macro encontrada.
 > olevba is a script to parse OLE and OpenXML files such as MS Office documents (e.g. Word, Excel), to detect VBA Macros, extract their source code in clear text, and detect security-related patterns such as auto-executable macros, suspicious VBA keywords used by malware, anti-sandboxing and anti-virtualization techniques, and potential IOCs (IP addresses, URLs, executable filenames, etc). It also detects and decodes several common obfuscation methods including Hex encoding, StrReverse, Base64, Dridex, VBA expressions, and extracts IOCs from decoded strings. XLM/Excel 4 Macros are also supported in Excel and SLK files.
 
 
+![image039.png](/uploads/InitialAccess/image039.png)
+
+
+Como vemos, podemos obtener toda la información necesario para tener los suficientes indicadores para responder ante las siguientes pregunta.
+
+¿Es malicio este fichero?¿Que comportamiento tiene?¿Que urls pertenecen a la organización?
+
+
 
 
 
