@@ -234,3 +234,11 @@ Existen otras herramientas como process hacker y observamos como se representan 
 
 
 ![image035.png](/uploads/InitialAccess/image035.png)
+
+# Analizando Documentos Offices
+
+A la hora de analizar fichero offices tenemos diferentes formas ade llevarlo acabo, existen herramientas automatizadas como anyrun o VT. 
+
+O la realización de análisis estático 
+
+Estás herramientas 
