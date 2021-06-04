@@ -285,7 +285,7 @@ Podemos extraer las macros de la siguiente forma:
 `oledump.py -s 13 sample.bin`
 
 
-Como vemos, este paso debería ir haciendolo por cada macro encontrada.
+Este paso debería ir haciendolo por cada macro encontrada.
 
 ### OleVba
 
