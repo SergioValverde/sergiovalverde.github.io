@@ -236,7 +236,7 @@ Existen otras herramientas como process hacker y observamos como se representan 
 
 # Analizando Documentos Offices
 
-A la hora de analizar fichero offices tenemos diferentes formas ade llevarlo acabo, existen herramientas automatizadas como anyrun o VT. U otras herramientas como oledump, olevba,  vipermonkey
+A la hora de analizar fichero offices tenemos diferentes formas ade llevarlo acabo, existen herramientas automatizadas como anyrun o VT. U otras herramientas como oledump, olevba.
 
 A la hora de analizar un incidente de seguridad, realizar un análisis automatizado puede que sea la opción más correcta. Una rápida respuesta a esta situción es crítico.
 
