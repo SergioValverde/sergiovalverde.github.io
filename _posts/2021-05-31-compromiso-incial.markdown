@@ -258,7 +258,7 @@ Thanks:
 
 * Ryan Cobb and Justin Bui for [workshop with Covenant](https://www.youtube.com/watch?v=oN_0pPI6TYU)
 
-* F-Secure for [initial access workshop´s](https://www.youtube.com/watch?v=oN_0pPI6TYU)!
+* F-Secure for [initial access workshop´s](https://labs.f-secure.com/blog/attack-detection-fundamentals-initial-access-lab-1/)
 
  
 
