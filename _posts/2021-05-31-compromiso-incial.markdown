@@ -242,3 +242,23 @@ A la hora de analizar fichero offices tenemos diferentes formas ade llevarlo aca
 O la realización de análisis estático 
 
 Estás herramientas 
+
+
+
+
+
+
+
+
+
+Thanks:
+
+* Hausec for creating a [red & blue team lab](https://hausec.com/2021/03/04/creating-a-red-blue-team-home-lab/)
+
+
+* Ryan Cobb and Justin Bui for [workshop with Covenant](https://www.youtube.com/watch?v=oN_0pPI6TYU)
+
+* F-Secure for [initial access workshop´s](https://www.youtube.com/watch?v=oN_0pPI6TYU)!
+
+ 
+
