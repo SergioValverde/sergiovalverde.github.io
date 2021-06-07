@@ -1,6 +1,10 @@
 ---
 title: Compromiso Incial I
 date: 2021-05-31 18:33:00 +02:00
+tags:
+- Covenant
+- PPID Spoofing
+- VBA
 license: false
 show_edit_on_github: false
 show_subscribe: false
