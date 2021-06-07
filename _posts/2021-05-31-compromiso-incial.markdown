@@ -299,7 +299,7 @@ Este paso debería ir haciendolo por cada macro encontrada.
 
 Como vemos, podemos obtener toda la información necesario para tener los suficientes indicadores para responder ante las siguientes pregunta.
 
-**¿Es malicio este fichero?¿Que comportamiento tiene?¿Que urls pertenecen a la organización?**
+**¿Es malicio este fichero?¿Que comportamiento tiene?¿Que urls pertenecen a la organización?¿IOcs?¿Reglas Yara?**
 
 
 
