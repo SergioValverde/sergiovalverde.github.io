@@ -1,5 +1,5 @@
 ---
-title: Compromiso Incial - En Construcción
+title: Compromiso Incial I
 date: 2021-05-31 18:33:00 +02:00
 license: false
 show_edit_on_github: false
@@ -173,7 +173,7 @@ Está sin lugar a dudas es muy interesante, a resaltar, el proceso hijo obtiene 
 
 Utilizaremos esta macro : https://raw.githubusercontent.com/christophetd/spoofing-office-macro/master/macro64.vba
 
-Leyendo el código fuente, observamos llamadas a las APIS CreateProcess, OpenProcess, UpdateProcThreadAttribute
+Leyendo el código fuente, observamos llamadas a las APIS CreateProcess, OpenProcess, UpdateProcThreadAttribute. Sin entrar a fondo en este tema, dejaré más tarde un artículo interesante.
 
 Seguimos leyendo, tenemos la función Sub AutoOpen(), donde tenemos la ejecución de powershell original, la variable pid = getPidByName("explorer.exe") y por último la ejecución del memoría de nuestro payload.
 
@@ -310,10 +310,8 @@ Como vemos, podemos obtener toda la información necesario para tener los sufici
 
 * Hausec for creating a [red & blue team lab](https://hausec.com/2021/03/04/creating-a-red-blue-team-home-lab/)
 
-
 * Ryan Cobb and Justin Bui for [workshop with Covenant](https://www.youtube.com/watch?v=oN_0pPI6TYU)
 
 * F-Secure for [initial access workshop´s](https://labs.f-secure.com/blog/attack-detection-fundamentals-initial-access-lab-1/)
-
  
-
+* Luis Francisco for [Threat Hunting - PPID-SPoofing ](https://www.securityartwork.es/2020/11/26/threat-hunting-viii-cazando-sin-salir-de-casa-creacion-de-procesos-ii/)
