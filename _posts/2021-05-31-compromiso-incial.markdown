@@ -189,7 +189,7 @@ Y ya una vez ejecutado por el usuario. Nos genera la siguiente información.
 
 ![image022.png](/uploads/InitialAccess/image022.png)
 
-El primer paso, es la creación de un proceso:
+El primer paso, es la creación de un proceso, este proceso será ejecutado por explorer.exe, todo tiene un porque,el proceso explorer.exe es interesante ya que es el responsable de gestionar la interfaz gráfica del usuario, y siempre estará levantado.
 
 ![image023.png](/uploads/InitialAccess/image023.png)
 
@@ -314,4 +314,6 @@ Como vemos, podemos obtener toda la información necesario para tener los sufici
 
 * F-Secure for [initial access workshop´s](https://labs.f-secure.com/blog/attack-detection-fundamentals-initial-access-lab-1/)
  
+* F-Secure for [Detecting Parent PID Spoofing](https://blog.f-secure.com/detecting-parent-pid-spoofing/)
+
 * Luis Francisco for [Threat Hunting - PPID-SPoofing ](https://www.securityartwork.es/2020/11/26/threat-hunting-viii-cazando-sin-salir-de-casa-creacion-de-procesos-ii/)
