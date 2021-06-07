@@ -316,8 +316,8 @@ Como vemos, podemos obtener toda la información necesario para tener los sufici
 
 * Ryan Cobb and Justin Bui for [workshop with Covenant](https://www.youtube.com/watch?v=oN_0pPI6TYU)
 
-* F-Secure for [initial access workshop´s](https://labs.f-secure.com/blog/attack-detection-fundamentals-initial-access-lab-1/)
+* Riccardo Ancarani for [initial access workshop´s](https://labs.f-secure.com/blog/attack-detection-fundamentals-initial-access-lab-1/)
  
-* F-Secure for [Detecting Parent PID Spoofing](https://blog.f-secure.com/detecting-parent-pid-spoofing/)
+* Noora Hyvärinen for [Detecting Parent PID Spoofing](https://blog.f-secure.com/detecting-parent-pid-spoofing/)
 
 * Luis Francisco for [Threat Hunting - PPID-SPoofing ](https://www.securityartwork.es/2020/11/26/threat-hunting-viii-cazando-sin-salir-de-casa-creacion-de-procesos-ii/)
