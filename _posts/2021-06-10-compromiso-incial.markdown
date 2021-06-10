@@ -321,3 +321,5 @@ Como vemos, podemos obtener toda la información necesario para tener los sufici
 * Noora Hyvärinen for [Detecting Parent PID Spoofing](https://blog.f-secure.com/detecting-parent-pid-spoofing/)
 
 * Luis Francisco for [Threat Hunting - PPID-SPoofing ](https://www.securityartwork.es/2020/11/26/threat-hunting-viii-cazando-sin-salir-de-casa-creacion-de-procesos-ii/)
+
+*  m365guy for [Hunting ETW providers](https://m365internals.com/2021/06/09/hunting-in-etw-providers-and-security-event-logs-with-azure-data-explorer/)
