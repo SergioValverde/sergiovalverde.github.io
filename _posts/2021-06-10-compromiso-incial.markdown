@@ -310,6 +310,8 @@ Como vemos, podemos obtener toda la información necesario para tener los sufici
 
 * * *
 
+## Artículos Relacionados
+
 **Thanks To:**
 
 * Hausec for creating a [red & blue team lab](https://hausec.com/2021/03/04/creating-a-red-blue-team-home-lab/)
