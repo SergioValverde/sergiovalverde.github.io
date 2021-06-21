@@ -20,7 +20,7 @@ Investigando en:
  - Conclusiones Finales, best oppsec RT and BT defenses
  - DISCOVERY with wmic, powershell, bloodhound, cheatsheets and defenses
  - Process Injection, av, edr´s...
- - Web, privates hackerone, ctf´s hackerone, labs portswigger
+ - Web, privates hackerone, ctf´s hackerone, labs portswigger, pentesterlab
  
 ##### Disclaimer
 
