@@ -26,3 +26,9 @@ Si deseas proponer alguna mejora, o algún comentario, ya sea duda o simplemente
 - Kali Linux, máquina atacante
 
 A nivel de herramientas, utilizaré CobaltStrike, como command and control.
+
+# Acceso Inicial
+
+El objetivo de esta lab será mostrar el funcionamiento de cobalt strike , y su utilización, utillizando técnicas como ofuscación y spear phising, a através de macros VBA y excel 4.0
+
+
