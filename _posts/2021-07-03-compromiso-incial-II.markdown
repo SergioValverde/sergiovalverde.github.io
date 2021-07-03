@@ -32,3 +32,26 @@ A nivel de herramientas, utilizaré CobaltStrike, como command and control.
 El objetivo de esta lab será mostrar el funcionamiento de cobalt strike , y su utilización, utillizando técnicas como ofuscación y spear phising, a através de macros VBA y excel 4.0
 
 
+### Cobalt Strike
+
+Lo interesante de cobalt strike es la posibilidad de modificar los comportamientos, que processos spameamos , como las llamadas a las api hacen las injeciones, parámetros de red. 
+
+
+
+![image001.png](/uploads/InitialAccess2/image001.png)
+
+
+Como decía anteriormente, la capacidad de modificar los comportamientos es una de las técnicas interesantes de cobalt strike.
+
+Existen repositorios, como el siguiente, https://github.com/xx0hcd/Malleable-C2-Profiles
+
+Estos perfiles proporcionan la capacidad de modificar los indicadores.
+
+Dentro de cobalt, tenemos la herramienta c2lint, que nos permite comprobar si el profile es correcto, así como ver la información que genera.
+
+A modo de ejemplo, utilizaremos el template de youtube:
+https://raw.githubusercontent.com/xx0hcd/Malleable-C2-Profiles/master/normal/youtube_video.profile
+
+
+
+
