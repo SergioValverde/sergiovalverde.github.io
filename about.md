@@ -3,7 +3,6 @@ layout: article
 key: page-about
 ---
 
-
 Interesado en temas de web/mobile, RT, BT,malwr
 
 Fascinado en entender las tacticas y técnicas usadas por los APT, su comportamiento, así como sus objetivos.

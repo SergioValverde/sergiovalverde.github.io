@@ -1,11 +1,6 @@
 ---
-title: Compromiso Incial II - Working ..
-date: 2021-07-03 19:33:00 +02:00
-tags:
-- Cobalt Strike
-license: false
-show_edit_on_github: false
-show_subscribe: false
+title: Compromiso Inicial - II
+date: 2021-07-03 18:50:00 +02:00
 ---
 
 El objetivo de está serie de artículos es aprender técnicas tantas ofensivas como defensivas. Por ello, habrá dos apartados, uno principal demostrando técnicas para recabar, en este caso información, y como determinar su defensa.
@@ -26,3 +21,6 @@ Si deseas proponer alguna mejora, o algún comentario, ya sea duda o simplemente
 - Kali Linux, máquina atacante
 
 A nivel de herramientas, utilizaré CobaltStrike, como command and control.
+
+
+
