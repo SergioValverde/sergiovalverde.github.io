@@ -12,9 +12,9 @@ show_subscribe: false
 El objetivo de está serie de artículos es aprender técnicas tantas ofensivas como defensivas. Por ello, habrá dos apartados, uno principal demostrando técnicas para recabar, en este caso información, y como determinar su defensa.
 
 
-![image024.png](/uploads/InitialAccess2/image024.png)
-
 ![image025.png](/uploads/InitialAccess2/image025.png)
+
+![image026.png](/uploads/InitialAccess2/image026.png)
 
 
 Si deseas proponer alguna mejora, o algún comentario, ya sea duda o simplemente conocer más sobre esto, por favor, sin miedo escribe por telegram o twitter :)
