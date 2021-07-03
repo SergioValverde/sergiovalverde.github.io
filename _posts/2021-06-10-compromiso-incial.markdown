@@ -10,7 +10,7 @@ show_edit_on_github: false
 show_subscribe: false
 ---
 
-En esta series de artículos intentare mostrar y detallar técnicas tanto ofensivas como defensivas.
+En esta series de artículos intentare mostrar y detallar técnicas tanto ofensivas como defensivas. Por ello, habrá dos apartados, uno principal demostrando técnicas para recabar, en este caso información, y como determinar su defensa.
 
 Si deseas proponer alguna mejora, o algún comentario, ya sea duda o simplemente conocer más sobre esto, por favor, sin miedo escribe por telegram o twitter :)
 
