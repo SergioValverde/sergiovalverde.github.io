@@ -99,4 +99,23 @@ La instrucción la copiamos en un script, y le pasamos invoke-stealth:
 
 
 
+Esta ejecución nos provoca múltiples procesos, aunque por un lado puede parecer que nos protege contra los AV´s, esto es incorrento, AV salta.
+
+![image010.png](/uploads/InitialAccess2/image010.png)
+
+EL primer proceso creado, 
+
+![image011.png](/uploads/InitialAccess2/image011.png)
+
+Los eventos siguientes, con el ID 4104, conocico como proceso de ejecución de comandos, siguen este mismo patrón:
+
+![image012.png](/uploads/InitialAccess2/image012.png)
+
+Como vemos está opción es totalmente inviable para ser ejecutada en un entorno real.
+
+
+
+
+
+
 
