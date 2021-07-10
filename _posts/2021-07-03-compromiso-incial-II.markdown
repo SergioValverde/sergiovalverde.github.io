@@ -51,6 +51,7 @@ Dentro de cobalt, tenemos la herramienta c2lint, que nos permite comprobar si el
 
 A modo de ejemplo, utilizando el template de [youtube](https://raw.githubusercontent.com/xx0hcd/Malleable-C2-Profiles/master/normal/youtube_video.profile)
 
+![image003.png](/uploads/InitialAccess2/image003.png)
 
 
 
