@@ -54,4 +54,8 @@ A modo de ejemplo, utilizando el template de [youtube](https://raw.githubusercon
 ![image003.png](/uploads/InitialAccess2/image003.png)
 
 
+Y observamos el tráfico generado vía wireshark
+
+![image004.png](/uploads/InitialAccess2/image004.png)
+
 
