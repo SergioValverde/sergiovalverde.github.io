@@ -58,4 +58,45 @@ Y observamos el tráfico generado vía wireshark
 
 ![image004.png](/uploads/InitialAccess2/image004.png)
 
+Como vemos es bastante interesante, así como totalmente modificable y destacable, el crear nuestros propios templates, e imitar comportamientos que nos encontremos dentro de una red.
+
+
+
+El primer paso, será crear nuestro listener
+
+
+
+![image005.png](/uploads/InitialAccess2/image005.png)
+
+
+Una vez creado el listener, tenemos que crear el payload que descargará nuestro beacon.
+
+
+![image006.png](/uploads/InitialAccess2/image006.png)
+
+Nos generará una instrucción para realizar la descarga:
+
+![image007.png](/uploads/InitialAccess2/image007.png)
+
+
+
+### Ofuscación
+
+Al ser herramientas muy utilizadas, son cazadas por los antivirus. Con este fin, la recomendación es ofuscar nuestros payloads.
+
+
+Utilizamos la herramienta Invoke-Stealth
+
+
+
+![image008.png](/uploads/InitialAccess2/image008.png)
+
+Los AV´s detectan strings o cadenas de texto para identicar patrones, asique utilizamos la opción Chimera.
+
+La instrucción la copiamos en un script, y le pasamos invoke-stealth:
+
+![image009.png](/uploads/InitialAccess2/image009.png)
+
+
+
 
