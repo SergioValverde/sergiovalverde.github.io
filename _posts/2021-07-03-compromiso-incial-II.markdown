@@ -85,7 +85,7 @@ Nos generará una instrucción para realizar la descarga:
 Al ser herramientas muy utilizadas, son cazadas por los antivirus. Con este fin, la recomendación es ofuscar nuestros payloads.
 
 
-Utilizamos la herramienta Invoke-Stealth
+Utilizamos la herramienta **Invoke-Stealth**
 
 
 
@@ -107,11 +107,30 @@ EL primer proceso creado,
 
 ![image011.png](/uploads/InitialAccess2/image011.png)
 
-Los eventos siguientes, con el ID 4104, conocico como proceso de ejecución de comandos, siguen este mismo patrón:
-
 ![image012.png](/uploads/InitialAccess2/image012.png)
 
+Los eventos siguientes, con el ID 4104, conocido como proceso de ejecución de comandos, siguen este mismo patrón:
+
+![image013.png](/uploads/InitialAccess2/image013.png)
+
+![image014.png](/uploads/InitialAccess2/image014.png)
+
 Como vemos está opción es totalmente inviable para ser ejecutada en un entorno real.
+
+
+
+
+
+### Creación de macros
+
+
+En esta parte del ejercicio, mi intentión era ver las macros XML 4.0, ya que están teniendo gran tirón por parte de los ciberdelicuentes.
+
+Y la verdad es que me ha aparecido bastante interesante como funcionan. Incluso, como veremos más adelante, las dificultades para analizar un fichero de este tipo.
+
+
+
+
 
 
 
