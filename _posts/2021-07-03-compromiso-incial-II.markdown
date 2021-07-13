@@ -201,4 +201,6 @@ Reference a la conexión con el C2
 ## Analizando Macros XML 4.0
 
 
+A la hora de analizar fichero offices tenemos diferentes formas ade llevarlo acabo, existen herramientas automatizadas como anyrun o VT. U otras herramientas como oledump, olevba.
+
 
