@@ -183,6 +183,12 @@ Una tercera alerta, un nuevo proceso creado
 
 ![image041.png](/uploads/InitialAccess2/image041.png)
 
+Reference a la conexión con el C2
+
+![image042.png](/uploads/InitialAccess2/image042.png)
+
+![image043.png](/uploads/InitialAccess2/image043.png)
+
 
 
 
