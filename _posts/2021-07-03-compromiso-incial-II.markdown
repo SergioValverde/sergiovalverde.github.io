@@ -161,3 +161,14 @@ En este paso, ejecutaremos el binario con el objetivo de obtener una conexión e
 
 ![image034.png](/uploads/InitialAccess2/image034.png)
 
+Se nos genera la siguiente información, información relacionada con la descarga del fichero:
+
+![image035.png](/uploads/InitialAccess2/image035.png)
+
+La primera alerta, la creación de un proceso
+
+![image036.png](/uploads/InitialAccess2/image036.png)
+
+![image037.png](/uploads/InitialAccess2/image037.png)
+
+
