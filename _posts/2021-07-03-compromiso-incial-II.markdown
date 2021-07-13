@@ -129,12 +129,20 @@ En esta parte del ejercicio, mi intentión era ver las macros XML 4.0, ya que es
 Y la verdad es que me ha aparecido bastante interesante como funcionan. Incluso, como veremos más adelante, las dificultades para analizar un fichero de este tipo.
 
 
+Primer paso, debemos generar un payload con cobalt strike
 
 
+![image015.png](/uploads/InitialAccess2/image015.png)
 
 
+![image027.png](/uploads/InitialAccess2/image027.png)
 
+Una vez generado nuestro payload, debemos eliminar los null bytes con msfvenom:
 
+![image028.png](/uploads/InitialAccess2/image028.png)
 
+Y utilizaremos la herramienta SharpShooter de parte del equipo de MDSec.
+
+![image029.png](/uploads/InitialAccess2/image029.png)
 
 
