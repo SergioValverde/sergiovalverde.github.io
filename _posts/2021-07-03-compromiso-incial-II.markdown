@@ -155,3 +155,9 @@ Por lo tanto, nos genererá alertas de seguridad
 
 ![image032.png](/uploads/InitialAccess2/image032.png)
 
+## Ejecución
+
+En este paso, ejecutaremos el binario con el objetivo de obtener una conexión entre ambos equipo y también, para ver que información estamos generando.
+
+![image034.png](/uploads/InitialAccess2/image034.png)
+
