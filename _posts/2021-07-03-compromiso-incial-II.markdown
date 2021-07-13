@@ -171,4 +171,14 @@ La primera alerta, la creación de un proceso
 
 ![image037.png](/uploads/InitialAccess2/image037.png)
 
+La segunda alerta, creación de un fichero
+
+![image038.png](/uploads/InitialAccess2/image038.png)
+
+![image039.png](/uploads/InitialAccess2/image039.png)
+
+
+
+
+
 
