@@ -159,6 +159,13 @@ Por lo tanto, nos genererá alertas de seguridad
 
 En este paso, ejecutaremos el binario con el objetivo de obtener una conexión entre ambos equipo y también, para ver que información estamos generando.
 
+El fichero creado tiene la siguiente imágen:
+
+
+![image019.png](/uploads/InitialAccess2/image019.png)
+
+Una vez, se ejecuten las macros, se producirá la conexión a nuestro command and control.
+
 ![image034.png](/uploads/InitialAccess2/image034.png)
 
 Se nos genera la siguiente información, información relacionada con la descarga del fichero:
