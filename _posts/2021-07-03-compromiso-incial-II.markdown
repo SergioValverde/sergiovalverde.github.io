@@ -153,3 +153,5 @@ Por lo tanto, nos genererá alertas de seguridad
 
 ![image031.png](/uploads/InitialAccess2/image031.png)
 
+![image032.png](/uploads/InitialAccess2/image032.png)
+
