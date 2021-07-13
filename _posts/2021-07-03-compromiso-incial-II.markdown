@@ -181,7 +181,7 @@ Una tercera alerta, un nuevo proceso creado
 
 ![image040.png](/uploads/InitialAccess2/image040.png)
 
-![image041.png](/uploads/InitialAccess2/image042.png)
+![image041.png](/uploads/InitialAccess2/image041.png)
 
 
 
