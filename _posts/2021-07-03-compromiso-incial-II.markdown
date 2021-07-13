@@ -145,4 +145,6 @@ Y utilizaremos la herramienta SharpShooter de parte del equipo de MDSec.
 
 ![image029.png](/uploads/InitialAccess2/image029.png)
 
+Una vez generado el fichero, debemos exportarnos a nuestro equipo. Como datos vemos que el fichero es identificado como malicioso. 
 
+![image030.png](/uploads/InitialAccess2/image030.png)
