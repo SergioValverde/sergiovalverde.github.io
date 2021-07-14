@@ -288,14 +288,25 @@ Esto es una pequeña introducción al mundo de las macros, que sin duda, es un t
 * Pablo Ambite for [Aprovechando de Microsoft Team para persistir y ocultar ](https://www.blackarrow.net/es/aprovechando-microsoft-teams-para-persistir-y-ocultar-el-trafico-de-cobalt-strike/ )
 
 
-*Assaf Dahan for [Operation Cobalt Kitty ](https://attack.mitre.org/docs/training-cti/Cybereason%20Cobalt%20Kitty%20-%20original%20report.pdf)
+* Assaf Dahan for [Operation Cobalt Kitty ](https://attack.mitre.org/docs/training-cti/Cybereason%20Cobalt%20Kitty%20-%20original%20report.pdf)
 
 
-*Joel Gámez for [Invoke-Stealth ](https://darkbyte.net/ofuscando-scripts-de-powershell-con-invoke-stealth/)
+* Joel Gámez for [Invoke-Stealth ](https://darkbyte.net/ofuscando-scripts-de-powershell-con-invoke-stealth/)
 
 ### Macros:
 
-*
+* Marcin Ogorzelski for [The first step in Excel 4.0 for Red Team](https://blog.stmcyber.com/excel-4-0-for-red-team/)
+
+* Joe Leon & Matt Grandy for [Offensive Maldocs in 2020](https://www.youtube.com/watch?v=RW5U9yxilf4)
+
+* Stan Hegt for [Old school: evil Excel 4.0 macros (XLM)](https://outflank.nl/blog/2018/10/06/old-school-evil-excel-4-0-macros-xlm/)
+
+
+* Pieter Ceelen and Stan Hegt [Office in Wonderland](https://www.youtube.com/watch?v=9ULzZA70Dzg) and [pdf](https://i.blackhat.com/asia-19/Thu-March-28/bh-asia-Hegt-MS-Office-in-Wonderland.pdf)
+
+
+
+
 *
 
 
