@@ -278,5 +278,9 @@ Esto es una pequeña introducción al mundo de las macros, que sin duda, es un t
 
 **Thanks To:**
 
+* Riccardo Ancarani for initial access workshop´s, [3](https://labs.f-secure.com/blog/attack-detection-fundamentals-initial-access-lab-3/) and [4](https://labs.f-secure.com/blog/attack-detection-fundamentals-initial-access-lab-4/)
+
+
+
 
 
