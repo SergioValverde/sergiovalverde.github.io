@@ -207,11 +207,28 @@ A la hora de analizar fichero offices tenemos diferentes formas ade llevarlo aca
 **A la hora de analizar un incidente de seguridad, realizar un análisis automatizado puede que sea la opción más correcta. Una rápida respuesta a esta situción es crítico.**
 
 
-La muestra que analizaremos se trata de TrickBot.
+La muestra que analizaremos se trata de **TrickBot**.
 
 https://bazaar.abuse.ch/sample/888614bdf13110e3934ff3a852074f6cde2998db6631d443bdee73dec5ecfe30/
 
 Curiosidad: En las bases de datos como [bazar-abuse](https://bazaar.abuse.ch/browse/) se integran en botnets, con el fin de obtener toda posible muestra de malware.
+
+
+
+Una vez lo descomprimimos, como se nos indica, se trata de un fichero xlsx
+
+
+![image044.png](/uploads/InitialAccess2/image044.png)
+
+Podemos utilizar el hash del fichero para obtener más información.
+
+![image045.png](/uploads/InitialAccess2/image045.png)
+
+Otbetemos información interesante, como dominios o ip´s
+
+Tenemos la opción de AnyRun, para ver la muestra en movimiento.
+
+![image046.png](/uploads/InitialAccess2/image046.png)
 
 
 
