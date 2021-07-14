@@ -256,6 +256,17 @@ Una vez obtenido la password, necesitamos desencriptar este fichero, para ello u
 ![image050.png](/uploads/InitialAccess2/image050.png)
 
 
+Una vez obtenido el fichero desencriptado, podemos analizar con **xmldeobfuscator**
+
+![image051.png](/uploads/InitialAccess2/image051.png)
+
+
+OS suenan las formulas del Excel? Ejem ejem…
+
+![image052.png](/uploads/InitialAccess2/image052.png)
+
+
+
 
 
 
