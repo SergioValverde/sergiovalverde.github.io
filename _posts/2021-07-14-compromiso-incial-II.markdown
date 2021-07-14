@@ -293,7 +293,7 @@ Esto es una pequeña introducción al mundo de las macros, que sin duda, es un t
 
 * Joel Gámez for [Invoke-Stealth ](https://darkbyte.net/ofuscando-scripts-de-powershell-con-invoke-stealth/)
 
-### Macros:
+### Macros
 
 * Marcin Ogorzelski for [The first step in Excel 4.0 for Red Team](https://blog.stmcyber.com/excel-4-0-for-red-team/)
 
@@ -307,4 +307,6 @@ Esto es una pequeña introducción al mundo de las macros, que sin duda, es un t
 
 * Daniel Heinsen for [Phishing in a Macro-less World](https://www.youtube.com/watch?v=WlR01tEgi_8)
 
+### SharpShooter
 
+* D. Chell for [Cracking the Perimeter with SharpShooter](https://www.youtube.com/watch?v=z89xNXLsXLU) and [pdf](https://hackinparis.com/data/slides/2019/talks/HIP2019-Dominic_Chell-Cracking_The_Perimeter_With_Sharpshooter.pdf)
