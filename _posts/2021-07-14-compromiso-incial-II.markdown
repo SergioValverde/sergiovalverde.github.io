@@ -3,6 +3,8 @@ title: Compromiso Incial II - Working ..
 date: 2021-07-14 19:33:00 +02:00
 tags:
 - Cobalt Strike
+- SharpShooter
+- Excel 4.0
 license: false
 show_edit_on_github: false
 show_subscribe: false
