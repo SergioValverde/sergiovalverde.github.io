@@ -201,6 +201,17 @@ Reference a la conexión con el C2
 ## Analizando Macros XML 4.0
 
 
+
 A la hora de analizar fichero offices tenemos diferentes formas ade llevarlo acabo, existen herramientas automatizadas como anyrun o VT. U otras herramientas como oledump, olevba.
+
+**A la hora de analizar un incidente de seguridad, realizar un análisis automatizado puede que sea la opción más correcta. Una rápida respuesta a esta situción es crítico.**
+
+
+La muestra que analizaremos se trata de TrickBot.
+
+https://bazaar.abuse.ch/sample/888614bdf13110e3934ff3a852074f6cde2998db6631d443bdee73dec5ecfe30/
+
+Curiosidad: En las bases de datos como [bazar-abuse](https://bazaar.abuse.ch/browse/) se integran en botnets, con el fin de obtener toda posible muestra de malware.
+
 
 
