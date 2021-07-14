@@ -244,6 +244,18 @@ Oledump, tiene plugins que nos da un aporte extra de conocimiento, en este caso,
 
 
 
+Como vemos, la información es mucho más extensa. Pero sin embargo, al estar el fichero protegido por password no funciona del todo bien…
+
+
+Si queremos obtener mayor información sobre el fichero, podemos desencriptarlo con **msoffcrypto-crack.py**
+
+![image049.png](/uploads/InitialAccess2/image049.png)
+
+Una vez obtenido la password, necesitamos desencriptar este fichero, para ello utilizamos **msoffcrypto-tool**
+
+![image050.png](/uploads/InitialAccess2/image050.png)
+
+
 
 
 
