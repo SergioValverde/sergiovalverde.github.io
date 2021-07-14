@@ -278,14 +278,23 @@ Esto es una pequeña introducción al mundo de las macros, que sin duda, es un t
 
 **Thanks To:**
 
+### Cobalt
+
 * Riccardo Ancarani for initial access workshop´s, [3](https://labs.f-secure.com/blog/attack-detection-fundamentals-initial-access-lab-3/) and [4](https://labs.f-secure.com/blog/attack-detection-fundamentals-initial-access-lab-4/)
 
 *Raphael Mudge for Malleable C2, [read ](https://cobaltstrike.com/help-malleable-c2) and [video](https://www.youtube.com/watch?v=0AOQqd6OQzk)
 
 
-*
-*
-*
+* Pablo Ambite for [Aprovechando de Microsoft Team para persistir y ocultar ](https://www.blackarrow.net/es/aprovechando-microsoft-teams-para-persistir-y-ocultar-el-trafico-de-cobalt-strike/ )
+
+
+*Assaf Dahan for [Operation Cobalt Kitty ](https://attack.mitre.org/docs/training-cti/Cybereason%20Cobalt%20Kitty%20-%20original%20report.pdf)
+
+
+*Joel Gámez for [Invoke-Stealth ](https://darkbyte.net/ofuscando-scripts-de-powershell-con-invoke-stealth/)
+
+### Macros:
+
 *
 *
 
