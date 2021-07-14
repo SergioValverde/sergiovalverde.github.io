@@ -280,7 +280,13 @@ Esto es una pequeña introducción al mundo de las macros, que sin duda, es un t
 
 * Riccardo Ancarani for initial access workshop´s, [3](https://labs.f-secure.com/blog/attack-detection-fundamentals-initial-access-lab-3/) and [4](https://labs.f-secure.com/blog/attack-detection-fundamentals-initial-access-lab-4/)
 
+*Raphael Mudge for Malleable C2, [read ](https://cobaltstrike.com/help-malleable-c2) and [video](https://www.youtube.com/watch?v=0AOQqd6OQzk)
 
 
+*
+*
+*
+*
+*
 
 
