@@ -230,5 +230,20 @@ Tenemos la opción de AnyRun, para ver la muestra en movimiento.
 
 ![image046.png](/uploads/InitialAccess2/image046.png)
 
+Como vemos en los procesos, podemos entender que una vez ejecuta las macros lo que hace es dropear un fichero .dll y este es cargado con rundll32.exe
+
+Utilizar oledump, pero en este caso es interesante, ya que no nos muestra información sobre macros VBA.
+
+![image047.png](/uploads/InitialAccess2/image047.png)
+
+Oledump, tiene plugins que nos da un aporte extra de conocimiento, en este caso, utilizaremos el plugin_biff.py:
+
+`oledump.py trickbot.xlsx -p plugin_biff.py`
+
+![image048.png](/uploads/InitialAccess2/image048.png)
+
+
+
+
 
 
