@@ -268,5 +268,13 @@ OS suenan las formulas del Excel? Ejem ejem…
 
 
 
+Esto es una pequeña introducción al mundo de las macros, que sin duda, es un tema interesante para investigar para tanto red como blue team.
+
+* * *
+
+## Artículos Relacionados
+
+**Thanks To:**
+
 
 
