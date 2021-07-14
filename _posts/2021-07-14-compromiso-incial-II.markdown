@@ -1,6 +1,6 @@
 ---
 title: Compromiso Incial II - Working ..
-date: 2021-07-03 19:33:00 +02:00
+date: 2021-07-14 19:33:00 +02:00
 tags:
 - Cobalt Strike
 license: false
