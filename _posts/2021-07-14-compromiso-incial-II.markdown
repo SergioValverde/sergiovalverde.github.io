@@ -297,7 +297,7 @@ Esto es una pequeña introducción al mundo de las macros, que sin duda, es un t
 
 * Marcin Ogorzelski for [The first step in Excel 4.0 for Red Team](https://blog.stmcyber.com/excel-4-0-for-red-team/)
 
-* Joe Leon & Matt Grandy for [Offensive Maldocs in 2020](https://www.youtube.com/watch?v=RW5U9yxilf4)
+* Joe Leon & Matt Grandy for [Offensive Maldocs in 2020](https://www.youtube.com/watch?v=RW5U9yxilf4) and [pdf](https://github.com/FortyNorthSecurity/Presentations/blob/master/Offensive%20Maldocs%20in%202020.pdf)
 
 * Stan Hegt for [Old school: evil Excel 4.0 macros (XLM)](https://outflank.nl/blog/2018/10/06/old-school-evil-excel-4-0-macros-xlm/)
 
