@@ -1,5 +1,5 @@
 ---
-title: Compromiso Incial II - Working ..
+title: Compromiso Incial II
 date: 2021-07-14 19:33:00 +02:00
 tags:
 - Cobalt Strike
