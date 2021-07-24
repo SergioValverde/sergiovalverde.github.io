@@ -214,7 +214,7 @@ La muestra que analizaremos se trata de **TrickBot**.
 https://bazaar.abuse.ch/sample/888614bdf13110e3934ff3a852074f6cde2998db6631d443bdee73dec5ecfe30/
 
 Curiosidad: En las bases de datos como [bazar-abuse](https://bazaar.abuse.ch/browse/), los usuarios se integran en botnets, con el fin de obtener toda posible muestra de malware y así estudiar los comportamientos y nuevas features.
-
+{:.info}
 
 
 Una vez lo descomprimimos, como se nos indica, se trata de un fichero xlsx
