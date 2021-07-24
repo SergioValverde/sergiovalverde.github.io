@@ -38,6 +38,7 @@ El objetivo de esta lab será mostrar el funcionamiento de cobalt strike , y su 
 
 Lo interesante de cobalt strike es la posibilidad de modificar los comportamientos, que processos spameamos , como las llamadas a las api hacen las injeciones, parámetros de red. 
 
+Podemos customizar intervalos de sueño en nuestros beacons como la capacidad de customizar artifacts.
 
 
 ![image001.png](/uploads/InitialAccess2/image001.png)
