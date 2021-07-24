@@ -272,12 +272,12 @@ OS suenan las formulas del Excel? Ejem ejem…
 
 Esto es una pequeña introducción al mundo de las macros, que sin duda, es un tema interesante para investigar para tanto red como blue team.
 
-A fecha de 24 de septiembre de 2020:
+**A fecha de 24 de septiembre de 2020:**
 
 ![image053.png](/uploads/InitialAccess2/image053.png)
 
 
-A día de hoy:
+**A día de hoy:**
 
 ![image054.png](/uploads/InitialAccess2/image054.png)
 
