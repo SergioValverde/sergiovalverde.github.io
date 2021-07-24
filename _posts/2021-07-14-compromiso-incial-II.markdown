@@ -45,6 +45,9 @@ Lo interesante de cobalt strike es la posibilidad de modificar los comportamient
 
 Como decía anteriormente, la capacidad de modificar los comportamientos es una de las técnicas interesantes de cobalt strike.
 
+Curiosidad: Las versiones cobalt strike obtenidas de la red, son conseguidos por leaks de ataques.
+{:.info}
+
 Existen repositorios, como el siguiente, https://github.com/xx0hcd/Malleable-C2-Profiles
 
 Estos perfiles proporcionan la capacidad de modificar los indicadores.
