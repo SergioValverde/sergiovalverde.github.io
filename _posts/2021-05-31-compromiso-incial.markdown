@@ -324,6 +324,8 @@ Como vemos, podemos obtener toda la información necesario para tener los sufici
 
 * Luis Francisco for [Threat Hunting - PPID-SPoofing ](https://www.securityartwork.es/2020/11/26/threat-hunting-viii-cazando-sin-salir-de-casa-creacion-de-procesos-ii/)
 
+* Security-In-Bits for [Parent PID Spoofing (Stage 2) Ataware Ransomware](https://www.securityinbits.com/malware-analysis/parent-pid-spoofing-stage-2-ataware-ransomware-part-3/) 
+
 *  m365guy for [Hunting ETW providers](https://m365internals.com/2021/06/09/hunting-in-etw-providers-and-security-event-logs-with-azure-data-explorer/)
 
 * Malwation for [Offensive Approach to Online SandBoxes - AnyRUn](https://malwation.com/offensive-approach-to-online-sandboxes-1-any-run/)  
