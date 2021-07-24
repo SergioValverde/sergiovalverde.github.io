@@ -51,7 +51,7 @@ Curiosidad: Las versiones cobalt strike obtenidas de la red, son conseguidos por
 
 Existen repositorios, como el siguiente, https://github.com/xx0hcd/Malleable-C2-Profiles
 
-Estos perfiles proporcionan la capacidad de modificar los indicadores.
+Estos perfiles proporcionan la capacidad de modificar los indicadores, emular el trafico real de una aplicación como es youtube en este caso, incluso conseguir evandir defensas.
 
 Dentro de cobalt, tenemos la herramienta c2lint, que nos permite comprobar si el profile es correcto, así como ver la información que genera.
 
