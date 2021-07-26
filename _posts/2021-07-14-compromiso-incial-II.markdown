@@ -285,6 +285,8 @@ Esto es una pequeña introducción al mundo de las macros, que sin duda, es un t
 
 ![image054.png](/uploads/InitialAccess2/image054.png)
 
+Como podemos observar, la encriptación es una de las principales maneras para bypassear de forma eficiente los antivirus.
+
 * * *
 
 ## Artículos Relacionados
