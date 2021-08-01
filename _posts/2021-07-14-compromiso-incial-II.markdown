@@ -1,5 +1,5 @@
 ---
-title: Compromiso Incial II
+title: Initial Access II
 date: 2021-07-14 19:33:00 +02:00
 tags:
 - Cobalt Strike
