@@ -58,12 +58,12 @@ A día de hoy, están indexadas 58.
 
 ### Laboratorios:
 
-Portswigger
-Pentesterlab
+* Portswigger
+* Pentesterlab
 
 ### Cursos recomendados:
 
-Web application Penetration Tester eXtreme - eWPTXv2
+* Web application Penetration Tester eXtreme - eWPTXv2
 
 **Rodeate de los mejores.**
 
@@ -71,9 +71,9 @@ Telegram: https://t.me/bugbountyes
 
 **¿Necesitás más?**
 
-Telegram: https://t.me/thebugbountyhunter
-Twitter: Lista creada por @securibee
-Discords: HackerOne, BugCrowd
-NewsLetters con noticias semanales
-https://securib.ee/newsletter/
-https://blog.intigriti.com/
+* Telegram: https://t.me/thebugbountyhunter
+* Twitter: Lista creada por @securibee
+* Discords: HackerOne, BugCrowd
+* NewsLetters con noticias semanales
+* * https://securib.ee/newsletter/
+* * https://blog.intigriti.com/
