@@ -3,6 +3,8 @@ title: Bug Bounty Advanced
 date: 2021-09-04 23:46:00 +02:00
 sharing: false
 license: false
+show_edit_on_github: false
+show_subscribe: false
 ---
 
 Este ejercicio realizado fue el proyecto final para el máster de ciberseguridad, 2020-2021.
