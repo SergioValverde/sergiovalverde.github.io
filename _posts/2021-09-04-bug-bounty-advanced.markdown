@@ -51,10 +51,10 @@ A día de hoy, están indexadas 58.
 
 ### Libros:
 
-bug bounty playbook 1
-bug bounty playbook 2
-Web Application Advanced Hacking
-BugBountyBootcamp: The Guide to Finding and Reporting Web Vulnerabilities
+* bug bounty playbook 1
+* bug bounty playbook 2
+* Web Application Advanced Hacking
+* BugBountyBootcamp: The Guide to Finding and Reporting Web Vulnerabilities
 
 ### Laboratorios:
 
