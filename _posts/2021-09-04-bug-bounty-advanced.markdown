@@ -5,9 +5,7 @@ date: 2021-09-04 23:46:00 +02:00
 
 Este ejercicio realizado fue el proyecto final para el máster de ciberseguridad, 2020-2021.
 
-La idea del proyecto realizado fue enfocarme en aprender sobre vulnerabilidades web y así avanzar en conocimientos en esta área.
-
-El objetivo se cumplío a la perfección.
+La idea del proyecto realizado fue enfocarme en aprender sobre vulnerabilidades web y así avanzar en conocimientos en esta área. El objetivo se cumplío a la perfección.
 
 
 
