@@ -3,7 +3,7 @@ layout: article
 key: page-about
 ---
 
-Interesado en temas de web/mobile, RT, BT,malwr
+Interesado en temas de web/mobile, RT, malwr
 
 
  
