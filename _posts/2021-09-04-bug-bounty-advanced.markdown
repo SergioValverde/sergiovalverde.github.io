@@ -16,7 +16,7 @@ La idea del proyecto realizado fue enfocarme en aprender sobre vulnerabilidades 
 
 **Algunas cuestiones planteadas durante el ejercicio**
 
-### ¿Existe un camino rápido para alcanzar objetivos?
+#### ¿Existe un camino rápido para alcanzar objetivos?
 Respuesta sencilla NO, no existen atajos. 
 
 ### ¿Mejor fuente de información?
