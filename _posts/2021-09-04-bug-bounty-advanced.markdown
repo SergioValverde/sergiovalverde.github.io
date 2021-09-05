@@ -83,7 +83,7 @@ Telegram: https://t.me/bugbountyes
 * Twitter: Lista creada por @securibee
 * Discords: HackerOne, BugCrowd
 * NewsLetters con noticias semanales:
- * https://securib.ee/newsletter/
- * https://blog.intigriti.com/
+  * https://securib.ee/newsletter/
+  * https://blog.intigriti.com/
 
 
