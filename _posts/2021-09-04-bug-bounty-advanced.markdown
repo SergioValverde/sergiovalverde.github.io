@@ -59,7 +59,7 @@ Además, os dejo los enlaces que he ido recopilando mientras leía e investigaba
 
 https://github.com/SergioValverde/Resources/blob/main/BugBounty
 
-#### Libros:
+#### Libros Recomendados:
 
 * bug bounty playbook 1
 * bug bounty playbook 2
