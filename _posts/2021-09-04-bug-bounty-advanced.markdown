@@ -20,7 +20,7 @@ La idea del proyecto realizado fue enfocarme en aprender sobre vulnerabilidades 
 Respuesta sencilla NO, no existen atajos. 
 
 #### ¿Mejor fuente de información?
-Este ha sido uno de mis gran problemas, demasiado donde mirar, generando ansiadad por intentar sacar todo, hasta la última frase que puediese aprender algo, PortSwigger y sus laboratorios, es la principal fuente de información, no hay nada que se les acerque.
+Este ha sido uno de mis gran problemas, demasiado donde mirar, recomiendo la plataforma PortSwigger y sus laboratorios, es la principal fuente de información, no hay nada que se les acerque.
 
 #### ¿Una vez terminado el proyecto, lo volverías hacer?
 
