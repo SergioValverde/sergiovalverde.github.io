@@ -22,7 +22,7 @@ Enlace de descarga: [BBAdvanced-2020-2021.pdf](/uploads/BBAdvanced-2020-2021.pdf
 Respuesta sencilla NO, no existen atajos. 
 
 #### ¿Mejor fuente de información?
-Este ha sido uno de mis gran problemas, demasiado donde mirar, recomiendo la plataforma PortSwigger y sus laboratorios, es la principal fuente de información, no hay nada que se les acerque.
+Este ha sido uno de mis grandes problemas, demasiado donde mirar, recomiendo la plataforma PortSwigger y sus laboratorios, es la principal fuente de información, no hay nada que se les acerque.
 
 #### ¿Una vez terminado el proyecto, lo volverías hacer?
 
