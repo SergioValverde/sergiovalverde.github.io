@@ -53,7 +53,7 @@ https://cse.google.com/cse?cx=3ae4ef31f21691573
 
 A día de hoy, están indexadas 58.
 
-Además, os tejo los enlaces que he ido recopilando mientras realizaba el proyecto:
+Además, os dejo los enlaces que he ido recopilando mientras realizaba el proyecto:
 
 https://github.com/SergioValverde/Resources/blob/main/BugBounty
 
