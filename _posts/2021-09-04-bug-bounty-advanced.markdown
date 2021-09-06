@@ -26,7 +26,7 @@ Este ha sido uno de mis grandes problemas, demasiado donde mirar, recomiendo la 
 
 #### ¿Una vez terminado el proyecto, lo volverías hacer?
 
-Sí rotundamente, ha sido un proceso bastante divertido y emocionante, **totalmente inducido**, la misma sensación que puedes sentir jugando a un videojuego o escuchando una sesión de música. Principalmente, debido gran parte al estar todos los días aprendiendo algo, levantarse todos los días a las 6 de la mañana para aprender, nunca había sentido está sensación. Excitante.
+Sí rotundamente, ha sido un proceso bastante divertido y emocionante, **totalmente inducido**, la misma sensación que puedes sentir jugando a un videojuego o escuchando una sesión de música. Principalmente, debido gran parte al estar todos los días aprendiendo algo.
 
 
 Es más, me quede con las ganas de meter temas de Bypass WAF, malas configuraciones en entornos Cloud.
