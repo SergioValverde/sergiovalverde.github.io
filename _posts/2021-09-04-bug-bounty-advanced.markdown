@@ -13,8 +13,6 @@ La idea del proyecto realizado fue enfocarme en aprender sobre vulnerabilidades 
 
 <div>{%- include extensions/slideshare.html id='2TT67T2Vhhn4En' -%}</div>
 
-Enlace de descarga: [BBAdvanced-2020-2021.pdf](/uploads/BBAdvanced-2020-2021.pdf)
-
 
 ## Recomendaciones para principiantes
 
