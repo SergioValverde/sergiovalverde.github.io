@@ -11,7 +11,7 @@ Este ejercicio realizado fue el proyecto final para el máster de ciberseguridad
 
 La idea del proyecto realizado fue enfocarme en aprender sobre vulnerabilidades web y así avanzar en conocimientos en esta área. El objetivo se cumplío a la perfección.
 
-<div>{%- include extensions/slideshare.html id='BlFnOoqhp7WAYI' -%}</div>
+<div>{%- include extensions/slideshare.html id='2TT67T2Vhhn4En' -%}</div>
 
 Enlace de descarga: [BBAdvanced-2020-2021.pdf](/uploads/BBAdvanced-2020-2021.pdf)
 
