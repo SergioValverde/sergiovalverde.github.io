@@ -56,6 +56,8 @@ Antes de ello, debemos de realizar unas configuraciones.
 Y ya tendríamos instalado las siguientes características:
 
 •	Abusing ACLs/ACEs
+
+
 •	Kerberoasting
 •	AS-REP Roasting
 •	Abuse DnsAdmins
