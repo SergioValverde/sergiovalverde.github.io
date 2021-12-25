@@ -32,22 +32,22 @@ https://github.com/WazeHell/vulnerable-AD/blob/master/vulnad.ps1
 
 Antes de ello, debemos de realizar unas configuraciones.
 
-Primero, realizar la instalación del modulo de AD para PowerShell
+**Primero**, realizar la instalación del modulo de AD para PowerShell
 
 `Install-WindowsFeature -Name "RSAT-AD-PowerShell" –IncludeAllSubFeature`
 
-Segundo, desactivar la característica de active monitoring, del windows defender. Necesario para cuando importemos a nuestro equipo el script de WazeHell, no nos genere problemas.
+**Segundo**, desactivar la característica de active monitoring, del windows defender. Necesario para cuando importemos a nuestro equipo el script de WazeHell, no nos genere problemas.
 
 `Set-MpPreference -DisableRealtimeMonitoring $TRUE`
 
-Tercero, importarno el script, en mi caso, realizo la descarga desde mi kali linux
+**Tercero**, importarno el script, en mi caso, realizo la descarga desde mi kali linux
 
 `certutil.exe -urlcache -split -f "http://IP/vulnad.ps1`
 
-Cuarto, importamos el script
+**Cuarto**, importamos el script
 `. .\vulnad.ps1`
 
-Quinto y último paso, correr el script
+**Quinto y último paso**, correr el script
 
 `Invoke-VulnAD -UsersLimit 100 -DomainName snaplabs.local`
 
