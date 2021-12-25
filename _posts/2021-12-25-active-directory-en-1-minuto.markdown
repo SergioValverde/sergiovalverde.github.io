@@ -15,7 +15,7 @@ Aún teniendo un equipo potente, puede ser tedioso trabajar con máquinas virtua
 
 En este blog os resumo la idea de **snaplabs**.
 
-A través de AWS, nos permite crear laboratios en apenas segundos, son templates, totalmente modificables.
+A través de AWS, nos permite crear laboratorios en apenas segundos, son templates, totalmente modificables.
 
 ![snap2.png](/uploads/AD/snap2.png)
 
