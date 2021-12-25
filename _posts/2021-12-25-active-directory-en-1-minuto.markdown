@@ -17,6 +17,8 @@ Tenemos diferentes opciones, el límite son nuestra imáginación, por un coste 
 
 En mi caso, he generado un laboratorio de AD - 2016, donde tenemos un Windows Server 2016, y otro WS 2016 promocionado a Domain Control.
 
+![snap1.png](/uploads/AD/snap1.png)
+
 -----------------------
 
 Creando el laboratorio, utilizamos el siguiente script.
