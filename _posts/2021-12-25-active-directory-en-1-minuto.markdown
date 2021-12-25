@@ -1,6 +1,8 @@
 ---
 title: Active Directory en 1 minuto
 date: 2021-12-25 13:30:00 +01:00
+tags:
+- AD
 sharing: false
 license: false
 show_edit_on_github: false
