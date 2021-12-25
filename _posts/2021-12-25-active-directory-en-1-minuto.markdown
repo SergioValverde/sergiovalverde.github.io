@@ -40,7 +40,7 @@ Antes de ello, debemos de realizar unas configuraciones.
 
 `Set-MpPreference -DisableRealtimeMonitoring $TRUE`
 
-**Tercero**, importarno el script, en mi caso, realizo la descarga desde mi kali linux
+**Tercero**, descargamos nuestro script a nuestro DC, tenemos diferentes opciones, utilice la más comoda, en mi caso, utilize la siguiente instrucción
 
 `certutil.exe -urlcache -split -f "http://IP/vulnad.ps1`
 
