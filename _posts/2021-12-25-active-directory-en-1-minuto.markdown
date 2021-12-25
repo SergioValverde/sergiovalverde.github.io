@@ -45,6 +45,7 @@ Antes de ello, debemos de realizar unas configuraciones.
 `certutil.exe -urlcache -split -f "http://IP/vulnad.ps1`
 
 **Cuarto**, importamos el script
+
 `. .\vulnad.ps1`
 
 **Quinto y último paso**, correr el script
