@@ -1,6 +1,10 @@
 ---
 title: Active Directory en 1 minuto
 date: 2021-12-25 13:30:00 +01:00
+sharing: false
+license: false
+show_edit_on_github: false
+show_subscribe: false
 ---
 
 **Uno de los problemas de prácticar con AD puede ser los recursos necesarios, tiempo dedicado en montar un entorno de pruebas.**
