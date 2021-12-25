@@ -28,7 +28,7 @@ En mi caso, he generado un laboratorio de AD - 2016, donde tenemos un Windows Se
 ----------------------------------------
 
 Creando el laboratorio, utilizamos el siguiente script.
-https://github.com/WazeHell/vulnerable-AD/blob/master/vulnad.ps1
+*https://github.com/WazeHell/vulnerable-AD/blob/master/vulnad.ps1*
 
 Antes de ello, debemos de realizar unas configuraciones.
 
