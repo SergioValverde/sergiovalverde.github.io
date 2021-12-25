@@ -11,6 +11,8 @@ En este blog os resumo la idea de **snaplabs**.
 
 A través de AWS, nos permite crear laboratios en apenas segundos, son templates, totalmente modificables.
 
+![snap2.png](/uploads/AD/snap2.png)
+
 Tenemos diferentes opciones, el límite son nuestra imáginación, por un coste rídiculo.
 
 En mi caso, he generado un laboratorio de AD - 2016, donde tenemos un Windows Server 2016, y otro WS 2016 promocionado a Domain Control.
