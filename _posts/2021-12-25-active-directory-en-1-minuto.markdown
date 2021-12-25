@@ -59,16 +59,38 @@ Y ya tendríamos instalado las siguientes características:
 
 
 •	Kerberoasting
+
+
 •	AS-REP Roasting
+
+
 •	Abuse DnsAdmins
+
+
 •	Password in Object Description
+
+
 •	User Objects With Default password (Changeme123!)
+
+
 •	Password Spraying
+
+
 •	DCSync
+
+
 •	Silver Ticket
+
+
 •	Golden Ticket
+
+
 •	Pass-the-Hash
+
+
 •	Pass-the-Ticket
+
+
 •	SMB Signing Disabled
 
 
