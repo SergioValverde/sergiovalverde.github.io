@@ -98,4 +98,4 @@ Y ya tendríamos instalado las siguientes características:
 
 ### Consideraciones
 
-**Eliminar la información Banner Grabbing del script, ya que nos genera errores **
+**Eliminar la información Banner Grabbing del script, ya que nos genera errores**
