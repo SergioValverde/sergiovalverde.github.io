@@ -99,3 +99,5 @@ Y ya tendríamos instalado las siguientes características:
 ### Consideraciones
 
 **Eliminar la información Banner Grabbing del script, ya que nos genera errores**
+
+Si la inercia te ha llegado a este post, y te surge la curiosidad de prácticar, de crear labs, para prácticar red and blue, mandame un ping ;)
