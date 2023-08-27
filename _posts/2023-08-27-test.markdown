@@ -140,7 +140,7 @@ There are other techniques such as
 -	Hooking
 -	ETW provider – Session Hijacking
 -	**Patchless ETW bypass via hardware breakpoints**
--	…
+
 
 Used by command and controls like Havoc & BruteRatel
 
