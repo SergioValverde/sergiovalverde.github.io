@@ -34,7 +34,7 @@ The obtaining of information in windows, takes place in different ways, both hav
 
 
 -----
-Image1
+![image1.png](/uploads/Th-Eventos//image1.png)
 -----
 
 We have two main components, inside **User-Mode** we have LSASS.EXE, an internal process that inside it run the LSA modules, Local Security Authority service (Lsasrv.dll), it is the database where the registry policies are stored and it is in charge of sending security events to the event log, for example, events related to successful or failed session starts.
