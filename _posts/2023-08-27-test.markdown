@@ -499,10 +499,9 @@ Detection Example 2: Detecting C-Sharp Injection
 
 We can use execute-assembly with sliver, sliver spawn a notepad process por defecto
 
-image
+![test18.png](/uploads/Th-Eventos/test18.png)
 
-
-image
+![test17.png](/uploads/Th-Eventos/test17.png)
 
 
 These 2 DLLs are used when C# code is ran as part of the runtime to execute the bytecode
