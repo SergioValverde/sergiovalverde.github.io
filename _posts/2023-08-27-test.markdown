@@ -99,7 +99,7 @@ Actually EtwWriteEvent() calls EtwpEventWritefull, it should be like a private f
 
 As shown in the picture, multiple functions make use of NtTraceEvent.
 
-----
+
 ![image3.png](/uploads/Th-Eventos//image3.png)
 ----
 
