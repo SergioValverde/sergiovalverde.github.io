@@ -180,6 +180,8 @@ The implementation of Havoc [here](https://github.com/HavocFramework/Havoc/blob/
 
 ------
 
+* * *
+
 The Windows operating system relies strongly on ETW as a means to log andmonitor its activity. 
 
 Most Windows components contain one or more ETW providers that provide information about the component’s performance
