@@ -162,9 +162,7 @@ This instruction is equivalent to the 0xCC opcode on both 32-bit and 64-bit syst
 We can say, Hardware breakpoints work in the same manner, the difference is that once a breakpoint is specified at an address, this address will be stored in one of the available debug registers, Dr0,Dr1,Dr2 y Dr3.
 
 
-The implementation of Havoc => 
-
-https://github.com/HavocFramework/Havoc/blob/c393115fa1714748f368aff97e55da4aa81f5c56/payloads/Demon/Source/Core/HwBpEngine.c#L188
+The implementation of Havoc [here](https://github.com/HavocFramework/Havoc/blob/c393115fa1714748f368aff97e55da4aa81f5c56/payloads/Demon/Source/Core/HwBpEngine.c#L188)
 
 
 The Windows operating system relies strongly on ETW as a means to log andmonitor its activity. 
