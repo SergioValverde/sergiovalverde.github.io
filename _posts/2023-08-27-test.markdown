@@ -50,7 +50,7 @@ Both processes have multiple functionalities, not only for the purpose of sendin
 
 The process for reporting an event is as follows:
 
-**1st Generation of Security Events**
+### **1st Generation of Security Events**
 
 In an initial phase, the various Windows components, such as System Processes and services, make use of authZ.dll to generate security events. 
 
