@@ -474,16 +474,16 @@ The steps:
 Change the name for WININET.dll & download to the same path que calc.exe
 Let's now see how a Sysmon event ID 7 looks like.
 
-image
+![test14.png](/uploads/Th-Eventos/test14.png)
 
-image
+![test15.png](/uploads/Th-Eventos/test15.png)
 
 -	The event log contains the DLL's signing status (in this case, it is Microsoft-signed), the process or image responsible for loading the DLL, and the specific DLL that was loaded. 
 -	We can see the path of the files
 At now, we can see our example:
 
 
-image
+![test16.png](/uploads/Th-Eventos/test16.png)
 
 Let's explore these IOCs:
 -	"calc.exe", originally located in System32, should not be found in a writable directory. Therefore, a copy of "calc.exe" in a writable directory serves as an IOC, as it should always reside in System32 or potentially Syswow64.
