@@ -126,7 +126,8 @@ This technique consists of modifying the data stream by patching the EtwEventWri
 
 This would be one of the codes that we may encounter
 
-```
+```javascript
+
 int main() {
 	DWORD dwOld = 0;
 	FARPROC ptrNtTraceEvent = GetProcAddress(LoadLibrary("ntdll.dll"), "NtTraceEvent");
