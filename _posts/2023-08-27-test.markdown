@@ -88,7 +88,7 @@ Within the user-mode environment, the EtwWriteEvent() EtwEventWriteEx and EtwEve
 These functions use the NtTraceEvent function to transition to kernel mode. 
 
 The data flow would be as follows
- EtwWriteEvent/Ex/Full ==> NtTraceEvent  ETW
+ EtwWriteEvent/Ex/Full ==> NtTraceEvent ==> ETW
 
 And finally The Windows Event Log service writes events to the security event log.
 Actually EtwWriteEvent() calls EtwpEventWritefull, it should be like a private function inside the core
