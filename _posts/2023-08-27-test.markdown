@@ -429,6 +429,45 @@ image
 image
 
 
+These 2 DLLs are used when C# code is ran as part of the runtime to execute the bytecode
+
+
+We can detect this tecniques with process hacker, we can increase the visibility time when a process is born/dies. You will see a multitude of sub-processes of your parent jump in the same colour. Very funny.
+-	Process is managed => Green Color
+-	We can find the new modules running (clr.dll & clrjit.dll)
+
+Windows Event Logging
+
+Windows event logging offers comprehensive logging capabilities for application errors, security events, and diagnostic information
+Event viewer uses the AdvApi32.dll library functions, ReadEventoLog() to query the Windows Event Log.
+The default Windows event logs consist of Application, Security, Setup, System, and Forwarded Events.
+
+Each entry in the Windows Event Log is an "Event" and contains the following primary components:
+
+1.	Log Name: The name of the event log (e.g., Application, System, Security, etc.).
+2.	Source: The software that logged the event.
+3.	Event ID: A unique identifier for the event.
+4.	Task Category: This often contains a value or name that can help us understand the purpose or use of the event.
+5.	Level: The severity of the event (Information, Warning, Error, Critical, and Verbose).
+6.	Keywords: Keywords are flags that allow us to categorize events in ways beyond the other classification options. These are generally broad categories, such as "Audit Success" or "Audit Failure" in the Security log.
+7.	User: The user account that was logged on when the event occurred.
+8.	OpCode: This field can identify the specific operation that the event reports.
+9.	Logged: The date and time when the event was logged.
+10.	Computer: The name of the computer where the event occurred.
+11.	XML Data: All the above information is also included in an XML format along with additional event data.
+
+Useful Windows Event Logs:
+
+https://www.13cubed.com/downloads/windows_event_log_cheat_sheet.pdf
+
+Evasion:
+1º Blind EventLog
+Within the svchost.exe process, there are different threads running to execute the tasks of the EventLog service, if these threads are paused, no new events appear.
+Constantly updated 😉
+
+
+
+
 
 
 
