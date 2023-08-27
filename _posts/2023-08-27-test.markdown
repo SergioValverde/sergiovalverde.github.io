@@ -406,7 +406,7 @@ Example using a Sliver
 
 
 
-image 9
+![test10.png](/uploads/Th-Eventos/test10.png)
 
 Event ID 23: FileDelete (File Delete archived)
 -	- Traceability, identifying which information is removed by attackers, such as tools
