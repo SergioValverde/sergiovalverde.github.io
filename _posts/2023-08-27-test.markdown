@@ -3,6 +3,8 @@ title: Introduction to the Audit System
 date: 2023-08-27 20:18:00 +02:00
 license: false
 show_edit_on_github: false
+Field name:
+  Key: 
 ---
 
 A good starting point for understanding Windows is to understand its Event Logging System. Through these, we will obtain a real image of the computer. 
@@ -525,11 +527,5 @@ Constantly updated 😉
 
 
 
-
----
-...
-author: Sergio Valverde
-show_author_profile: true
----
 
 
