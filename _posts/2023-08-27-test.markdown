@@ -535,8 +535,11 @@ Useful Windows Event Logs:
 
 [https://www.13cubed.com/downloads/windows_event_log_cheat_sheet.pdf](https://www.13cubed.com/downloads/windows_event_log_cheat_sheet.pdf)
 
-Evasion:
-1º Blind EventLog
+
+###### Evasion
+
+**1. Blind EventLog**
+
 Within the svchost.exe process, there are different threads running to execute the tasks of the EventLog service, if these threads are paused, no new events appear.
 Constantly updated 😉
 
