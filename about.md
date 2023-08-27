@@ -12,6 +12,7 @@ Me gusta aprender y descubrir, y comprender profundamente las técnicas / herram
 
 
 
+
 Actualmente cuento con las certificaciones, CEH, OSCP, CRTO.
 
 
