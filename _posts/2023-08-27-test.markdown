@@ -144,7 +144,7 @@ There are other techniques such as
 
 Used by command and controls like Havoc & BruteRatel
 
-##### hardware breakpoints
+#### hardware breakpoints
 
 It's really interesting how this technique works, as well as its understanding and complexity are totally out of the look of the blog or what I intended it to be.
 
@@ -206,6 +206,7 @@ Some interesting ones like:
 -	Microsoft-Windows-DotNETRuntime: This provider focuses on .NET runtime events, making it ideal for identifying anomalies in .NET application execution, potential exploitation of .NET vulnerabilities, or malicious .NET assembly loading.
 -	Microsoft-Windows-PowerShell: This ETW provider tracks PowerShell execution and command activity, making it invaluable for detecting suspicious PowerShell usage, script block logging, and potential misuse or exploitation.
 An example of the functionality offered by ETW
+
 #####  Detectar .NET Assembly
 
 One of the techniques most commonly used by the C&C strategy is the "execute-assembly" command implemented in CobaltStrike.
