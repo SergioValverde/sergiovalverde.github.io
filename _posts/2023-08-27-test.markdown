@@ -106,7 +106,9 @@ Image3
 One of the techniques to disable ETW is to patch one of these functions.
 
 This technique consists of modifying the data stream by patching the EtwEventWrite WinAPI with a RET instruction (0xC3), stopping any useful ETW-related telemetry from being generated related to this process.
+
 This would be one of the codes that we may encounter
+
 ```
 int main() {
 	DWORD dwOld = 0;
@@ -117,13 +119,14 @@ int main() {
 	return 0;
 }
 ```
+
 The patch is simply force a return when the NtTraceEvent function is called NtTraceEvent 
 
 In particular, these tools implement similar techniques:
 
--	Donut(https://github.com/TheWover/donut/blob/master/loader/bypass.c#L365)
--	SharpBlock(https://github.com/CCob/SharpBlock/blob/master/Program.cs)
--	SharpSploit
+-	[Donut](https://github.com/TheWover/donut/blob/master/loader/bypass.c#L365)
+-	[SharpBlock](https://github.com/CCob/SharpBlock/blob/master/Program.cs)
+-	[SharpSploit](falta)
 
 This technique is well known y the most important limit is that this attack will only patch event raised in usermode. 
 As advocates we need to monitor these functions and identify if the value has been modified.
