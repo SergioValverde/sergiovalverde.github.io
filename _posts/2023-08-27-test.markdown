@@ -66,7 +66,7 @@ The "LSASS.exe" interface is responsible for handling the requests from these ev
 
 This is where the LSASS interface comes into play, acting as an intermediary to receive and process the RPC requests coming from the components, allowing the transfer of data.
 
-### **3rd Transfer to Windows Event Logger**
+#### **3rd Transfer to Windows Event Logger**
 
 
 LSASS plays a crucial role in the transfer of security events to the "Windows Event Logger", where these events will be logged and stored for further analysis. There are two ways in which LSASS performs this transfer:
@@ -76,7 +76,7 @@ LSASS plays a crucial role in the transfer of security events to the "Windows Ev
 - When making use of private functions, LSASS.exe calls the NTDLL.dll library to send the events to the Kernel-mode via the ETW component. This process involves the communication of events captured from user-mode applications to the Kernel-mode, where they are processed by the ETW component. The ETW component, in turn, enqueues and sends the events to the Windows event log service as fast as the service allows.
 
 
-### Event Tracing for Windows (ETW)
+## Event Tracing for Windows (ETW)
 
 There is some very interesting information already created, and well documented, I recommend you to read the following publications:
 
