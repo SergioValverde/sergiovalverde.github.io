@@ -6,6 +6,9 @@ layout: article
 
 HOLA !
 
+WELCOME !
+
+
 Actualmente trabajo para el equipo de Cyberproof donde realizo labores de pentester enfocado en aplicaciones web.
 
 Cuento con experiencia en otros ámbitos de la seguridad como en SOC y VA.
