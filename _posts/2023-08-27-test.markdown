@@ -109,7 +109,7 @@ Actually EtwWriteEvent() calls EtwpEventWritefull, it should be like a private f
 
 
 
-![test2.png](/uploads/Th-Eventos/test2.png){:width="128px" height="128px"}
+![test2.png](/uploads/Th-Eventos/test2.png){:width="228px" height="228px"}
 
 
 As shown in the picture, multiple functions make use of NtTraceEvent.
