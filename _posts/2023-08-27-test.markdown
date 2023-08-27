@@ -59,7 +59,9 @@ This event generation is carried out through the use of specific functions, the 
 **2nd Communication with LSASS.exe**
 
 Once the security events are generated, communication with LSASS.exe is initiated. To achieve this, the RPC (Remote Procedure Call) communication protocol is used. 
-The "LSASS.exe" interface is responsible for handling the requests from these event-generating functions. This is where the LSASS interface comes into play, acting as an intermediary to receive and process the RPC requests coming from the components, allowing the transfer of data.
+The "LSASS.exe" interface is responsible for handling the requests from these event-generating functions. 
+
+This is where the LSASS interface comes into play, acting as an intermediary to receive and process the RPC requests coming from the components, allowing the transfer of data.
 
 3rd Transfer to Windows Event Logger:
 LSASS plays a crucial role in the transfer of security events to the "Windows Event Logger", where these events will be logged and stored for further analysis. There are two ways in which LSASS performs this transfer:
