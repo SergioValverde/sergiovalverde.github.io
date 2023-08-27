@@ -81,10 +81,12 @@ There is some very interesting information already created, and well documented,
 -	https://bmcder.com/blog/a-begginers-all-inclusive-guide-to-etw
 
 Within the user-mode environment, the EtwWriteEvent() EtwEventWriteEx and EtwEventWriteFull functions, which are methods exported by the ntdll library, are called when a user-mode program wants to log an event.
+
 These functions use the NtTraceEvent function to transition to kernel mode. 
 
 The data flow would be as follows
  EtwWriteEvent/Ex/Full ==> NtTraceEvent  ETW
+
 And finally The Windows Event Log service writes events to the security event log.
 Actually EtwWriteEvent() calls EtwpEventWritefull, it should be like a private function inside the core
 
