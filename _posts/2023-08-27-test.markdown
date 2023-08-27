@@ -1,6 +1,8 @@
 ---
 title: Introduction to the Audit System
 date: 2023-08-27 20:18:00 +02:00
+license: false
+show_edit_on_github: false
 ---
 
 A good starting point for understanding Windows is to understand its Event Logging System. Through these, we will obtain a real image of the computer. 
@@ -35,7 +37,7 @@ The obtaining of information in windows, takes place in different ways, both hav
 
 
 
-![image1.png](/uploads/Th-Eventos//image1.png)
+![image001.png](/uploads/Th-Eventos//image001.png)
 
 
 We have two main components, inside **User-Mode** we have LSASS.EXE, an internal process that inside it run the LSA modules, Local Security Authority service (Lsasrv.dll), it is the database where the registry policies are stored and it is in charge of sending security events to the event log, for example, events related to successful or failed session starts.
