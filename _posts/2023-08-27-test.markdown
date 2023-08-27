@@ -4,9 +4,14 @@ date: 2023-08-27 20:18:00 +02:00
 published: false
 ---
 
-A good starting point for understanding Windows is to understand its Event Logging System. Through these, we will obtain a real image of the computer. Through them, we will get the answers to all the doubts that windows can generate.
+A good starting point for understanding Windows is to understand its Event Logging System. Through these, we will obtain a real image of the computer. 
+
+Through them, we will get the answers to all the doubts that windows can generate.
+
 Through them, hopefully, we will achieve a new technical skill, either from the vision of a Blue Team, or from the vision of a Blue Team, in charge of understanding events outside the organisation. As offensive team personnel, to perform intrusions in a healthy and opsec way.
+
 To get down to business, every process that occurs in windows is stored in these logs, even events that are generated without starting a session. That would be for example the winlogon process.
+
 All these events will show us relevant information, for example:
 -	All successful and unsuccessful logon attempts
 -	Attempts to clear audit logs
@@ -14,9 +19,16 @@ All these events will show us relevant information, for example:
 -	New system service creation
 -	File access
 -	Process creation…
+
 And many others
-Windows Auditing Event Flow
-Within the security subsystem, we have two main parts. These are the User Mode and the Kernel.
+
+Lest start
+
+#### Windows Auditing Event Flow
+
+Within the security subsystem, we have two main parts. 
+These are the User Mode and the Kernel.
+
 The obtaining of information in windows, takes place in different ways, both have a series of components that differentiate them.
 
 
@@ -25,12 +37,12 @@ The obtaining of information in windows, takes place in different ways, both hav
 Image1
 -----
 
-We have two main components, inside User-Mode we have LSASS.EXE, an internal process that inside it run the LSA modules, Local Security Authority service (Lsasrv.dll), it is the database where the registry policies are stored and it is in charge of sending security events to the event log, for example, events related to successful or failed session starts.
+We have two main components, inside **User-Mode** we have LSASS.EXE, an internal process that inside it run the LSA modules, Local Security Authority service (Lsasrv.dll), it is the database where the registry policies are stored and it is in charge of sending security events to the event log, for example, events related to successful or failed session starts.
 
 And the SAM service, which is responsible for the administration of User accounts. 
 
 
-And within the Kernel-Mode, NTOSKRNL.exe, also known as the System process. We have the Security Reference Monitor, SRM, one of the many functions it has is to generate any resulting security audit messages.
+And within the **Kernel-Mode**, NTOSKRNL.exe, also known as the System process. We have the Security Reference Monitor, SRM, one of the many functions it has is to generate any resulting security audit messages.
 Both processes have multiple functionalities, not only for the purpose of sending logs. They have a major influence on the operation of windows, for example SRM, is responsible for defining the access token data structure to represent a security context, performing security access checks on objects
 
 The process for reporting an event is as follows:
