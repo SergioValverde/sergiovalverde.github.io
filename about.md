@@ -1,15 +1,13 @@
 ---
-layout: article
+title: about
 key: page-about
+layout: article
 ---
 
-Interesado en temas de web/mobile, RT, malwr
+Pentester con experiencia en aplicaciones web
+
+Actualmente cuento con las certificaciones, CEH, OSCP, CRTO.
 
 
- 
-##### Disclaimer
-
-Esto es un blog personal, y las opiniones aquí vertidas no reflejan en absoluto las opiniones de mis clientes, empleadores o asociados pasados, presentes o futuros. 
 
 
-Para contactar, puede utilizar los canales de twitter o telegram.
