@@ -23,7 +23,7 @@ All these events will show us relevant information, for example:
 -	File access
 -	Process creation…
 
-And many others, let's get started
+And many others, let's get started !!
 
 -----
 
