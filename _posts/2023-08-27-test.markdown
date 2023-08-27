@@ -127,7 +127,7 @@ As shown in the picture, multiple functions make use of NtTraceEvent.
 
 One of the techniques to disable ETW is to patch one of these functions.
 
-This technique consists of modifying the data stream by patching the EtwEventWrite WinAPI with a RET instruction (0xC3), stopping any useful ETW-related telemetry from being generated related to this process.
+This technique consists of modifying the data stream by patching the EtwEventWrite WinAPI or NtTraceEvent with a RET instruction (0xC3), stopping any useful ETW-related telemetry from being generated related to this process.
 
 This would be one of the codes that we may encounter
 
