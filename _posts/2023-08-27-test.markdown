@@ -43,6 +43,7 @@ We have two main components, inside **User-Mode** we have LSASS.EXE, an internal
 
 And the SAM service, which is responsible for the administration of User accounts. 
 
+------
 
 And within the **Kernel-Mode**, NTOSKRNL.exe, also known as the System process. We have the Security Reference Monitor, SRM, one of the many functions it has is to generate any resulting security audit messages.
 
