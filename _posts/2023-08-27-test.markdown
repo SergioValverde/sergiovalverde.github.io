@@ -27,7 +27,7 @@ And many others
 
 Lest start
 
-### Windows Auditing Event Flow
+# Windows Auditing Event Flow
 
 Within the security subsystem, we have two main parts. 
 These are the User Mode and the Kernel.
