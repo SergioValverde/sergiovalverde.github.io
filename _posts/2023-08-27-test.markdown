@@ -27,7 +27,7 @@ And many others, let's get started
 
 -----
 
-Lest start
+
 
 # Windows Auditing Event Flow
 
