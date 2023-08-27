@@ -178,6 +178,7 @@ We can say, Hardware breakpoints work in the same manner, the difference is that
 
 The implementation of Havoc [here](https://github.com/HavocFramework/Havoc/blob/c393115fa1714748f368aff97e55da4aa81f5c56/payloads/Demon/Source/Core/HwBpEngine.c#L188)
 
+------
 
 The Windows operating system relies strongly on ETW as a means to log andmonitor its activity. 
 
