@@ -60,7 +60,7 @@ toc:
   selectors: 
 mathjax: 
 mathjax_autoNumber: 
-mermaid: 
+mermaid: true
 chart: 
 paginate: 8
 paginate_path: "/page:num"
