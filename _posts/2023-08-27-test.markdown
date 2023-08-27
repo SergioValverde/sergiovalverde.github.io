@@ -275,7 +275,7 @@ rule detect_clr_libraries {
 This rule called "detect_clr_libraries" looks for the strings "clrjit.dll" and "clr.dll" in a file or process and will trigger detection if either of these strings is found.
 
 ----
-Image5
+![test5.png](/uploads/Th-Eventos/test5.png)
 ----
 
 
@@ -306,7 +306,7 @@ PS C:\Tools> [MyProcess]::CreateProcessFromParent(1384,"C:\Windows\System32\cmd.
 
 ----
 
-Image6
+![test6.png](/uploads/Th-Eventos/test6.png)
 ----
 
 Due to the parent PID spoofing technique we employed, Sysmon Event 1 incorrectly displays lsass.exe as the parentImage of powershell.exe. 
