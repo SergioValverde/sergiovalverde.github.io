@@ -43,15 +43,21 @@ And the SAM service, which is responsible for the administration of User account
 
 
 And within the **Kernel-Mode**, NTOSKRNL.exe, also known as the System process. We have the Security Reference Monitor, SRM, one of the many functions it has is to generate any resulting security audit messages.
+
+
 Both processes have multiple functionalities, not only for the purpose of sending logs. They have a major influence on the operation of windows, for example SRM, is responsible for defining the access token data structure to represent a security context, performing security access checks on objects
 
 The process for reporting an event is as follows:
 
-1st Generation of Security Events
+**1st Generation of Security Events**
+
 In an initial phase, the various Windows components, such as System Processes and services, make use of authZ.dll to generate security events. 
 
 This event generation is carried out through the use of specific functions, the most prominent of which are AuthzReportSecurityEvent() or AuthzReportSecurityEventFromParams (). These functions allow components to report the occurrence of relevant security events.
-2nd Communication with LSASS.exe
+
+
+**2nd Communication with LSASS.exe**
+
 Once the security events are generated, communication with LSASS.exe is initiated. To achieve this, the RPC (Remote Procedure Call) communication protocol is used. 
 The "LSASS.exe" interface is responsible for handling the requests from these event-generating functions. This is where the LSASS interface comes into play, acting as an intermediary to receive and process the RPC requests coming from the components, allowing the transfer of data.
 
