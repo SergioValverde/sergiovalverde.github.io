@@ -425,7 +425,7 @@ Regarding the security of Sysmon, we must evaluate what rules exist within the c
 
 
 
-image
+![test11.png](/uploads/Th-Eventos/test11.png)
 
 
 Matt Graeber together with Lee Christensen gave a talk in 2018 at blackhat
@@ -435,7 +435,7 @@ https://github.com/mattifestation/BHUSA2018_Sysmon/blob/master/Slides_Subverting
 slides
 
 
-
+![test12.png](/uploads/Th-Eventos/test12.png)
 
 ```
 is ideal to focus on exclude rules. The rationale should be evident – any exclude rule that an attacker can get their tradecraft to match on will not be logged.
@@ -466,7 +466,7 @@ DLL search order hijacking: DLLs specified by an application without a path are 
 Esto nos permite dropear una dll en disco 
 
 
-image
+![test13.png](/uploads/Th-Eventos/test13.png)
 
 We will use this example from stephenfewer
 https://github.com/stephenfewer/ReflectiveDLLInjection/blob/master/bin/reflective_dll.x64.dll
