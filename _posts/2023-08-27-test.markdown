@@ -37,7 +37,7 @@ The obtaining of information in windows, takes place in different ways, both hav
 
 
 
-![Imagen1.png](/uploads/Th-Eventos/image1.png)
+![test.png](/uploads/Th-Eventos/test.png)
 
 We have two main components, inside **User-Mode** we have LSASS.EXE, an internal process that inside it run the LSA modules, Local Security Authority service (Lsasrv.dll), it is the database where the registry policies are stored and it is in charge of sending security events to the event log, for example, events related to successful or failed session starts.
 
@@ -97,6 +97,7 @@ Actually EtwWriteEvent() calls EtwpEventWritefull, it should be like a private f
 
 
 ![image2.png](/uploads/Th-Eventos//image2.png)
+
 
 
 As shown in the picture, multiple functions make use of NtTraceEvent.
