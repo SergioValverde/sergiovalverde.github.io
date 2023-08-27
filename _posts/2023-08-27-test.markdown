@@ -322,7 +322,7 @@ Using ETW we can see how in the logs, the process name is correctly running in p
 
 ----
 
-Image8
+![test8.png](/uploads/Th-Eventos/test8.png)
 ----
 
 
@@ -353,7 +353,7 @@ Example using Sliver C&C
 
 ----
 
-Image8
+![test9.png](/uploads/Th-Eventos/test9.png)
 ----
 
 
