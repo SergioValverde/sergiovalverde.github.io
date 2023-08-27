@@ -73,7 +73,8 @@ LSASS plays a crucial role in the transfer of security events to the "Windows Ev
 - When making use of private functions, LSASS.exe calls the NTDLL.dll library to send the events to the Kernel-mode via the ETW component. This process involves the communication of events captured from user-mode applications to the Kernel-mode, where they are processed by the ETW component. The ETW component, in turn, enqueues and sends the events to the Windows event log service as fast as the service allows.
 
 
-Event Tracing for Windows (ETW)
+### Event Tracing for Windows (ETW)
+
 There is some very interesting information already created, and well documented, I recommend you to read the following publications:
 
 -	https://blog.palantir.com/tampering-with-windows-event-tracing-background-offense-and-defense-4be7ac62ac63
