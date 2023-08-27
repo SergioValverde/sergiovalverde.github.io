@@ -541,6 +541,8 @@ Useful Windows Event Logs:
 **1. Blind EventLog**
 
 Within the svchost.exe process, there are different threads running to execute the tasks of the EventLog service, if these threads are paused, no new events appear.
+
+
 Constantly updated 😉
 
 
