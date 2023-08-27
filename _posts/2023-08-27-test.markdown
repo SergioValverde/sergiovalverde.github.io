@@ -533,7 +533,7 @@ Each entry in the Windows Event Log is an "Event" and contains the following pri
 
 Useful Windows Event Logs:
 
-https://www.13cubed.com/downloads/windows_event_log_cheat_sheet.pdf
+[https://www.13cubed.com/downloads/windows_event_log_cheat_sheet.pdf](https://www.13cubed.com/downloads/windows_event_log_cheat_sheet.pdf)
 
 Evasion:
 1º Blind EventLog
