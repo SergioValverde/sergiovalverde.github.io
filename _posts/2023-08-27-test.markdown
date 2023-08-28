@@ -529,7 +529,7 @@ These three powerful IOCs provide an effective means of detecting a DLL hijack i
 ##### Detection Example 2: Detecting C-Sharp Injection
 
 
-We can use execute-assembly with sliver, sliver spawn a notepad process por defecto
+We can use execute-assembly with sliver, sliver spawn a notepad process by default.
 
 ![test18.png](/uploads/Th-Eventos/test18.png)
 
