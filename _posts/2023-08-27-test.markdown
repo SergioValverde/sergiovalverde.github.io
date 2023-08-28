@@ -534,7 +534,7 @@ We can detect this tecniques with process hacker, we can increase the visibility
 -	Process is managed => Green Color
 -	We can find the new modules running (clr.dll & clrjit.dll)
 
-Windows Event Logging
+## Windows Event Logging
 
 Windows event logging offers comprehensive logging capabilities for application errors, security events, and diagnostic information
 Event viewer uses the AdvApi32.dll library functions, ReadEventoLog() to query the Windows Event Log.
