@@ -349,7 +349,7 @@ Sysmon's primary components include:
 
 •	An event log to display captured activity data.
 
-Sysmons events and configuration 
+**Sysmons events and configuration** => 
 [https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
 
 
