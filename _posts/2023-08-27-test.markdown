@@ -279,7 +279,7 @@ This rule called "detect_clr_libraries" looks for the strings "clrjit.dll" and "
 
 
 
-One way to avoid this style of detection is to set the process to a .NET assembly - there are plenty that exist on Windows by default.
+One way to avoid this style of detection is to set the process to a .NET assembly &  there are plenty that exist on Windows by default.
 
 ##### Detecting Strange Parent-Child Relationships
 
