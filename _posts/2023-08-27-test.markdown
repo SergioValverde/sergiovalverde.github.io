@@ -416,6 +416,7 @@ o	Lateral Movement
 o	Exfiltration
 
 -	Bitdefender-Whitepaper-WMI: A Decade of WMI Abuse – an Overview of Techniques in Modern Malware
+
 Event ID 22: DNSEvent (DNS query)
 -	Communication with the C&C
 Example using a Sliver 
