@@ -9,17 +9,13 @@ HOLA !
 WELCOME !
 
 
-Actualmente trabajo para el equipo de Cyberproof donde realizo labores de pentester enfocado en aplicaciones web.
+I currently work for the Cyberproof team where I perform pentester tasks focused on web applications.
 
-Cuento con experiencia en otros ámbitos de la seguridad como en SOC y VA.
+I have experience in other areas of security such as SOC and VA.
 
-Me gusta aprender y descubrir, y comprender profundamente las técnicas / herramientas.
-
-
-
-
-Actualmente cuento con las certificaciones, CEH, OSCP, CRTO.
+I like to learn and discover, and deeply understand the techniques / tools.
 
 
 
 
+I currently hold the certifications, CEH, OSCP, CRTO.
