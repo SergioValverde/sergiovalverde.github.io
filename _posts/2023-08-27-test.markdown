@@ -158,7 +158,7 @@ There are other techniques such as
 -	**Patchless ETW bypass via hardware breakpoints**
 
 
-Used by command and controls like Havoc & BruteRatel
+Used by command and controls like [Havoc](https://github.com/HavocFramework/Havoc) & BruteRatel
 
 #### hardware breakpoints
 
