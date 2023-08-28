@@ -338,8 +338,11 @@ Using ETW we can see how in the logs, the process name is correctly running in p
 System Monitor (Sysmon) is a Windows system service and device driver that remains resident across system reboots to monitor and log system activity to the Windows event log. Sysmon provides detailed information about process creation, network connections, changes to file creation time, and more.
 
 Sysmon's primary components include:
+
 •	A Windows service for monitoring system activity.
+
 •	A device driver that assists in capturing the system activity data.
+
 •	An event log to display captured activity data.
 
 Sysmons events and configuration 
