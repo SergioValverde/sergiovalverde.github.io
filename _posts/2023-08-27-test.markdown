@@ -591,6 +591,10 @@ Techniques and Countermeasures](https://dspace.cvut.cz/bitstream/handle/10467/10
 - Andrei miroshnikov for [Windows Security Monitoring](https://www.amazon.es/Windows-Security-Monitoring-Scenarios-Patterns/dp/1119390648)
 -  waldoirc for his lab [Windows Event Logs & Finding Evil](https://academy.hackthebox.com/module/details/216)
 
+- Noora Hyvärinen for [Detecting Parent PID Spoofing](https://blog.f-secure.com/detecting-parent-pid-spoofing/)
+
+-  Scott Nusbaum for [PPID Spoofing: It’s Really this Easy to Fake Your Parent](https://www.trustedsec.com/blog/ppid-spoofing-its-really-this-easy-to-fake-your-parent/)
+
 
 
 
