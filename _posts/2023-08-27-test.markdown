@@ -202,6 +202,8 @@ They provide a separate pathway to trace events happening inside the kernel rela
 From the kernel mode point of view, it will take care of reporting security events occurring in the processe in NTOSKRNL.EXE., known as Windows NT Operating System Kernel Executable.
 
 It hosts most of the code that is in kernel mode. It includes mostly the various “managers”: Object Manager, Memory Manager, I/O Manager, Plug & Play Manager, Power Manager, Configuration Manager
+
+
 The kernel implementation of ETW is done via the EtwTi functions, where Ti represents "threat intelligence".
 
 Read:
