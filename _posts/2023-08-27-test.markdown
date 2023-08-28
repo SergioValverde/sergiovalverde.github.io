@@ -478,7 +478,7 @@ is ideal to focus on exclude rules. The rationale should be evident – any excl
 -	Sysmon.exe -u 👀👀
 
 
-###### Detection Example 1: Detecting DLL Hijacking
+##### Detection Example 1: Detecting DLL Hijacking
 
 1º Find vulnerable DLL
 
