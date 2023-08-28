@@ -468,13 +468,13 @@ is ideal to focus on exclude rules. The rationale should be evident – any excl
 
 
 
-- Evading DNS querys with paching DnsApi.dll  
-https://blog.xpnsec.com/evading-sysmon-dns-monitoring/
+- [Evading DNS querys with paching DnsApi.dll ](https://blog.xpnsec.com/evading-sysmon-dns-monitoring/) 
 
--	Patching NtTraceEvent
-https://blog.dylan.codes/evading-sysmon-and-windows-event-logging/
--	Unload the driver 
-https://medium.com/@matterpreter/shhmon-silencing-sysmon-via-driver-unload-682b5be57650
+
+-	[Patching NtTraceEvent](https://blog.dylan.codes/evading-sysmon-and-windows-event-logging/)
+
+-	[Unload the driver ](https://medium.com/@matterpreter/shhmon-silencing-sysmon-via-driver-unload-682b5be57650)
+
 -	Sysmon.exe -u 👀👀
 
 
