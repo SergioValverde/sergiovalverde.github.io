@@ -90,7 +90,7 @@ Within the user-mode environment, the [EtwWriteEvent()](https://learn.microsoft.
 These functions use the NtTraceEvent function to transition to kernel mode. 
 
 The data flow would be as follows
- EtwWriteEvent/Ex/Full ==> NtTraceEvent ==> ETW
+ EtwWriteEvent/Ex/Full ==> [NtTraceEvent ](https://www.geoffchappell.com/studies/windows/km/ntoskrnl/api/etw/traceapi/event/index.htm) ==> ETW
 
 
 ```mermaid
