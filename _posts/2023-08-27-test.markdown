@@ -214,8 +214,7 @@ Read:
 Today, ETW is widely used by endpoint detection and response (EDR) solutions. These security solutions subscribe to ETW events to detect and prevent attacks in real-time.
 In order to fully patch ETW a driver must be used. Fortunately, ETW structures are not monitored by KPP and can be patched without triggering a BSOD
 
-
-Useful Providers
+###### Useful Providers
 
 There are more than 1,000 providers in windows 10.
 Some interesting ones like:
