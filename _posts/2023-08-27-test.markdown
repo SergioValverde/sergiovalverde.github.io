@@ -257,7 +257,7 @@ We can include yara rules to increase the detection of these libraries.
 To detect the use of the clrjit.dll & clr.dll libraries, you can create a YARA rule like the following:
 We can write our yara rule
 
-````
+~~~ ruby
 rule detect_clr_libraries {
     strings:
         $clrjit = "clrjit.dll"
@@ -266,7 +266,7 @@ rule detect_clr_libraries {
     condition:
         any of ($clrjit, $clr)
 }
-```
+~~~
 
 
 ```
