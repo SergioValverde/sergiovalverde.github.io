@@ -225,7 +225,6 @@ Some interesting ones like:
 -	**Microsoft-Windows-Kernel-Network**: This ETW provider offers visibility into network-related activity at the kernel level. It's especially useful in detecting network-based attacks such as data exfiltration, unauthorized network connections, and potential signs of command and control (C2) communication.
 -	**Microsoft-Windows-DotNETRuntime**: This provider focuses on .NET runtime events, making it ideal for identifying anomalies in .NET application execution, potential exploitation of .NET vulnerabilities, or malicious .NET assembly loading.
 -	**Microsoft-Windows-PowerShell**: This ETW provider tracks PowerShell execution and command activity, making it invaluable for detecting suspicious PowerShell usage, script block logging, and potential misuse or exploitation.
-An example of the functionality offered by ETW
 
 #####  Detectar .NET Assembly
 
