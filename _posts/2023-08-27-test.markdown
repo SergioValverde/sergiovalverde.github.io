@@ -589,6 +589,8 @@ Techniques and Countermeasures](https://dspace.cvut.cz/bitstream/handle/10467/10
 - ATTL4S & ElephantSe4 - [UNDERSTANDING AND HIDING YOUR OPERATIONS](https://attl4s.github.io/assets/pdf/UNDERSTANDING_AND_HIDING_YOUR_OPERATIONS.pdf)
 - Pavel/Alex/Mark/David for [Windows Internals](https://www.amazon.es/Windows-Internals-Part-architecture-management-ebook/dp/B0711FDMRR) and for all the knowledge they share
 - Andrei miroshnikov for [Windows Security Monitoring](https://www.amazon.es/Windows-Security-Monitoring-Scenarios-Patterns/dp/1119390648)
+-  waldoirc for his lab [Windows Event Logs & Finding Evil](https://academy.hackthebox.com/module/details/216)
+
 
 
 
