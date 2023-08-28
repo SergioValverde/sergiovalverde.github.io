@@ -285,8 +285,10 @@ One way to avoid this style of detection is to set the process to a .NET assembl
 
 This technique enables malicious processes to evade detection methods based on the parent-child relationship and inherit access tokens from the parent process to elevate privilege.  we need to have elevated rights in order to create a process from the parent process handle
 The visibility we have with event viewer is limited, even using tools like Sysmon we will not be able to detect the parent process.
+
 I will use the following tool:
-https://github.com/decoder-it/psgetsystem/blob/master/psgetsys.ps1
+
+[https://github.com/decoder-it/psgetsystem/blob/master/psgetsys.ps1](https://github.com/decoder-it/psgetsystem/blob/master/psgetsys.ps1)
 
 The tool works as follows:
 
