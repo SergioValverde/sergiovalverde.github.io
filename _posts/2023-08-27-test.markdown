@@ -439,8 +439,10 @@ Example using a Sliver
 
 
 Regarding the security of Sysmon, we must evaluate what rules exist within the configuration file:
+
 - Identifying the configuration
-	.\sysmon -c will show us the location of the file
+
+* * * * .\sysmon -c will show us the location of the file
 
 
 
