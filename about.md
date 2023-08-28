@@ -1,5 +1,5 @@
 ---
-title: about
+title: About
 key: page-about
 layout: article
 ---
