@@ -530,7 +530,7 @@ We can use execute-assembly with sliver, sliver spawn a notepad process por defe
 ![test17.png](/uploads/Th-Eventos/test17.png)
 
 
-These 2 DLLs are used when C# code is ran as part of the runtime to execute the bytecode
+These DLLs are used when C# code is ran as part of the runtime to execute the bytecode
 
 
 We can detect this tecniques with process hacker, we can increase the visibility time when a process is born/dies. You will see a multitude of sub-processes of your parent jump in the same colour. Very funny.
