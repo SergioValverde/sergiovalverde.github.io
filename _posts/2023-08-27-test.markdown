@@ -85,7 +85,7 @@ There is some very interesting information already created, and well documented,
 -	[https://blog.palantir.com/tampering-with-windows-event-tracing-background-offense-and-defense-4be7ac62ac63](https://blog.palantir.com/tampering-with-windows-event-tracing-background-offense-and-defense-4be7ac62ac63)
 -	[https://bmcder.com/blog/a-begginers-all-inclusive-guide-to-etw](https://bmcder.com/blog/a-begginers-all-inclusive-guide-to-etw)
 
-Within the user-mode environment, the EtwWriteEvent() EtwEventWriteEx and EtwEventWriteFull functions, which are methods exported by the ntdll library, are called when a user-mode program wants to log an event.
+Within the user-mode environment, the [EtwWriteEvent()](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwrite) [EtwEventWriteEx ](https://learn.microsoft.com/es-ES/windows/win32/api/evntprov/nf-evntprov-eventwriteex) and [EtwEventWriteFull ](https://learn.microsoft.com/es-es/windows/win32/devnotes/etweventwritefull) functions, which are methods exported by the ntdll library, are called when a user-mode program wants to log an event.
 
 These functions use the NtTraceEvent function to transition to kernel mode. 
 
