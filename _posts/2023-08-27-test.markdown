@@ -483,7 +483,7 @@ In this example, we know that calc.exe is vulnerable to dll sideloading, through
 ```
 DLL search order hijacking: DLLs specified by an application without a path are searched for in fixed locations in a specific order [3]. Hijacking the search order takes place by putting the evil DLL in a location that is searched in before the actual DLL. This sometimes includes the working directory of the target application.
 ```
-Esto nos permite dropear una dll en disco 
+
 
 
 ![test13.png](/uploads/Th-Eventos/test13.png)
