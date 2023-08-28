@@ -315,8 +315,9 @@ PS C:\Tools> [MyProcess]::CreateProcessFromParent(1384,"C:\Windows\System32\cmd.
 ![test6.png](/uploads/Th-Eventos/test6.png)
 ----
 
-Due to the parent PID spoofing technique we employed, Sysmon Event 1 incorrectly displays lsass.exe as the parentImage of powershell.exe. 
+Due to the parent PID spoofing technique we employed, Sysmon Event 1 incorrectly displays **lsass.exe** as the **parentImage** of powershell.exe. 
 However, it was actually powershell.exe that created powershell.exe.
+
 
 ----
 
