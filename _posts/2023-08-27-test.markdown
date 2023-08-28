@@ -331,7 +331,7 @@ However, it was actually powershell.exe that created powershell.exe.
 ----
 
 
-The only way that seems to be available is for kernel drivers that register for process creation notifications with PsSetCreateProcessNotifyRoutineEx (or one of its variants). When such a notification is invoked in the driver
+The only way that seems to be available is for kernel drivers that register for process creation notifications with [PsSetCreateProcessNotifyRoutineEx ](https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetcreateprocessnotifyroutineex) (or one of its variants). When such a notification is invoked in the driver
 
 
 Using ETW we can see how in the logs, the process name is correctly running in powershell.
