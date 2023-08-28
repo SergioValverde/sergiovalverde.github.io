@@ -207,7 +207,7 @@ The kernel implementation of ETW is done via the EtwTi functions, where Ti repre
 Read:
 
 
--	https://jsecurity101.medium.com/uncovering-windows-events-b4b9db7eac54
+-	[https://jsecurity101.medium.com/uncovering-windows-events-b4b9db7eac54](https://jsecurity101.medium.com/uncovering-windows-events-b4b9db7eac54)
 
 
 
