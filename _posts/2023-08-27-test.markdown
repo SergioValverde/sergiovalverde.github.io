@@ -490,8 +490,10 @@ DLL search order hijacking: DLLs specified by an application without a path are 
 
 We will use this example from stephenfewer
 https://github.com/stephenfewer/ReflectiveDLLInjection/blob/master/bin/reflective_dll.x64.dll
+
 The steps:
 Change the name for WININET.dll & download to the same path que calc.exe
+
 Let's now see how a Sysmon event ID 7 looks like.
 
 ![test14.png](/uploads/Th-Eventos/test14.png)
@@ -500,17 +502,21 @@ Let's now see how a Sysmon event ID 7 looks like.
 
 -	The event log contains the DLL's signing status (in this case, it is Microsoft-signed), the process or image responsible for loading the DLL, and the specific DLL that was loaded. 
 -	We can see the path of the files
+
+
 At now, we can see our example:
 
 
 ![test16.png](/uploads/Th-Eventos/test16.png)
 
 Let's explore these IOCs:
--	"calc.exe", originally located in System32, should not be found in a writable directory. Therefore, a copy of "calc.exe" in a writable directory serves as an IOC, as it should always reside in System32 or potentially Syswow64.
-1.	"WININET.dll", originally located in System32, should not be loaded outside of System32 by calc.exe. If instances of "WININET.dll" loading occur outside of System32 with "calc.exe" as the parent process, it indicates a DLL hijack within calc.exe. While caution is necessary when alerting on all instances of "WININET.dll" loading outside of System32 (as some applications may package specific DLL versions for stability), in the case of "calc.exe", we can confidently assert a hijack due to the DLL's unchanging name, which attackers cannot modify to evade detection.
+- 	"calc.exe", originally located in System32, should not be found in a writable directory. Therefore, a copy of "calc.exe" in a writable directory serves as an IOC, as it should always reside in System32 or potentially Syswow64.
 
-2.	The original "WININET.dll" is Microsoft-signed, while our injected DLL remains unsigned.
-These three powerful IOCs provide an effective means of detecting a DLL hijack involving calc.exe. It's important to note that while Sysmon and event logs offer valuable telemetry for hunting and creating alert rules, they are not the sole sources of information.
+- "WININET.dll", originally located in System32, should not be loaded outside of System32 by calc.exe. If instances of "WININET.dll" loading occur outside of System32 with "calc.exe" as the parent process, it indicates a DLL hijack within calc.exe. While caution is necessary when alerting on all instances of "WININET.dll" loading outside of System32 (as some applications may package specific DLL versions for stability), in the case of "calc.exe", we can confidently assert a hijack due to the DLL's unchanging name, which attackers cannot modify to evade detection.
+
+-	The original "WININET.dll" is Microsoft-signed, while our injected DLL remains unsigned.
+
+These three powerful IOCs provide an effective means of detecting a DLL hijack involving calc.exe. 
 
 
 
