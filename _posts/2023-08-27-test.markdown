@@ -477,7 +477,7 @@ https://blog.xpnsec.com/evading-sysmon-dns-monitoring/
 https://blog.dylan.codes/evading-sysmon-and-windows-event-logging/
 -	Unload the driver 
 https://medium.com/@matterpreter/shhmon-silencing-sysmon-via-driver-unload-682b5be57650
--	Mute Sysmon 
+-	Sysmon.exe -u 👀
 
 
 ###### Detection Example 1: Detecting DLL Hijacking
