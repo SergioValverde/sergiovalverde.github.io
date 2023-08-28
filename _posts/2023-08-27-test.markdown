@@ -71,7 +71,7 @@ This is where the LSASS interface comes into play, acting as an intermediary to 
 #### **3. Transfer to Windows Event Logger**
 
 
-LSASS plays a crucial role in the transfer of security events to the "Windows Event Logger", where these events will be logged and stored for further analysis. There are two ways in which LSASS performs this transfer:
+LSASS plays a crucial role in the transfer of security events to the Windows Event Logger, where these events will be logged and stored for further analysis. There are two ways in which LSASS performs this transfer:
 
 - Through the use of AdvApi32.dll, LSASS.exe uses the [ReportEvent()](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-reporteventa) function to send the events to the Windows Event Log Service. This enables events to be documented in the Windows event logs, providing a historical trace of the relevant security activities.
 
@@ -576,6 +576,10 @@ Within the svchost.exe process, there are different threads running to execute t
 
 
 Constantly updated 😉
+
+------
+
+
 
 
 
