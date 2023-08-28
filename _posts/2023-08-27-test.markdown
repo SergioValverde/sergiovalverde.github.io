@@ -104,7 +104,7 @@ graph TD;
 
 
 And finally The Windows Event Log service writes events to the security event log.
-Actually EtwWriteEvent() calls EtwpEventWritefull, it should be like a private function inside the core
+Actually EtwWriteEvent calls EtwpEventWritefull, it should be like a private function inside the core
 
 
 
