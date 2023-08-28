@@ -399,11 +399,8 @@ Example using Sliver C&C
 **Event ID 11: FileCreate**
 -	Trazabilidad
 
-**Event ID 12: RegistryEvent (Object create and delete)**
+**Event ID 12-13-14: RegistryEvent (Object create and delete) - (Value Set) - (Key and Value Rename)**
 
-**Event ID 13: RegistryEvent (Value Set)**
-
-**Event ID 14: RegistryEvent (Key and Value Rename)**
 -	Monitor Windows Registry
 
 **Event ID 15: FileCreateStreamHash**
