@@ -409,11 +409,11 @@ Example using Sliver C&C
 **Event ID 15: FileCreateStreamHash**
 
 **Event ID 16: ServiceConfigurationChange**
--	Escalada de privilegios / Persistencia
+-	Privilege Escalation / Persistence
 
 **Event ID 17/18: PipeEvent (Pipe Created) & (Pipe Connected)**
 
--	Comunicación con los C&C
+-	Communication with the C&C
 
 **Event ID 19,20,21: WmiEvent (WmiEventFilter activity detected) - (WmiEventConsumer activity detected) - (WmiEventConsumerToFilter activity detected)**
 
