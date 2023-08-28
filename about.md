@@ -4,7 +4,9 @@ key: page-about
 layout: article
 ---
 
-***
+---------
+
+---------
 
 
 HOLA !
