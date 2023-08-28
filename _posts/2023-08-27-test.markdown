@@ -393,7 +393,7 @@ Example using Sliver C&C
 **Event ID 9: RawAccessRead**
 
 **Event ID 10: ProcessAccess**
--	This enables detection of hacking tools that read the memory contents of processes like Local Security Authority (Lsass.exe). For example, dumpeo de la base de datos con mimikatz
+-	This enables detection of hacking tools that read the memory contents of processes like Local Security Authority (Lsass.exe). For example, dumpear the database with mimikatz
 
 **Event ID 11: FileCreate**
 -	Trazabilidad
