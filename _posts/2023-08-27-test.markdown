@@ -231,7 +231,8 @@ One of the techniques most commonly used by the C&C strategy is the "execute-ass
 CobaltStrike's 'execute-assembly' command allows the user to execute .NET assemblies directly from memory. This means that an executable or DLL does not need to be written physically to the disk
 
 How does execute-assembly work? The technique is known as fork and run, launch a new process and then inject a dll in that process
--	The Cobalt Strike implementation will:
+
+The Cobalt Strike implementation will:
 
 -   Spawn a temporary process 
 -   Load the .NET CLR (Command Language Runtime) into that process. Libraries like clrjit.dll / clr.dll are loaded.
