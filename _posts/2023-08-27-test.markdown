@@ -544,7 +544,7 @@ We can detect this tecniques with process hacker, we can increase the visibility
 ## Windows Event Logging
 
 Windows event logging offers comprehensive logging capabilities for application errors, security events, and diagnostic information
-Event viewer uses the AdvApi32.dll library functions, ReadEventoLog() to query the Windows Event Log.
+Event viewer uses the AdvApi32.dll library functions, [ReadEventLog()](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-readeventloga) to query the Windows Event Log.
 The default Windows event logs consist of Application, Security, Setup, System, and Forwarded Events.
 
 Each entry in the Windows Event Log is an "Event" and contains the following primary components:
