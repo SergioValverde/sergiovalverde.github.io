@@ -256,6 +256,7 @@ Right side we see the logs generated, identifying the clr.dll library.
 We can include yara rules to increase the detection of these libraries.
 To detect the use of the clrjit.dll & clr.dll libraries, you can create a YARA rule like the following:
 We can write our yara rule
+
 ````
 rule detect_clr_libraries {
     strings:
@@ -273,9 +274,9 @@ rule detect_clr_libraries {
 ```
 This rule called "detect_clr_libraries" looks for the strings "clrjit.dll" and "clr.dll" in a file or process and will trigger detection if either of these strings is found.
 
-----
+
 ![test5.png](/uploads/Th-Eventos/test5.png)
-----
+
 
 
 One way to avoid this style of detection is to set the process to a .NET assembly - there are plenty that exist on Windows by default.
