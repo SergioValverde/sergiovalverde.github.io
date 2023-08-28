@@ -416,7 +416,7 @@ o	Exfiltration
 
 -	Bitdefender-Whitepaper-WMI: A Decade of WMI Abuse – an Overview of Techniques in Modern Malware
 
-Event ID 22: DNSEvent (DNS query)
+**Event ID 22: DNSEvent (DNS query)**
 -	Communication with the C&C
 Example using a Sliver 
 
@@ -424,20 +424,20 @@ Example using a Sliver
 
 ![test10.png](/uploads/Th-Eventos/test10.png)
 
-Event ID 23: FileDelete (File Delete archived)
+**Event ID 23: FileDelete (File Delete archived)**
 -	- Traceability, identifying which information is removed by attackers, such as tools
 
-Event ID 24: ClipboardChange (New content in the clipboard)
+**Event ID 24: ClipboardChange (New content in the clipboard)**
 
-Event ID 25: ProcessTampering (Process image change)
+**Event ID 25: ProcessTampering (Process image change)**
 
-Event ID 26: FileDeleteDetected (File Delete logged)
+**Event ID 26: FileDeleteDetected (File Delete logged)**
 
-Event ID 27: FileBlockExecutable
+**Event ID 27: FileBlockExecutable**
 
-Event ID 28: FileBlockShredding
+**Event ID 28: FileBlockShredding**
 
-Event ID 29: FileExecutableDetected
+**Event ID 29: FileExecutableDetected**
 
 
 
