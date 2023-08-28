@@ -58,7 +58,7 @@ The process for reporting an event is as follows:
 
 In an initial phase, the various Windows components, such as System Processes and services, make use of authZ.dll to generate security events. 
 
-This event generation is carried out through the use of specific functions, the most prominent of which are AuthzReportSecurityEvent() or [AuthzReportSecurityEventFromParams ()](https://learn.microsoft.com/en-us/windows/win32/api/authz/nf-authz-authzreportsecurityeventfromparams). These functions allow components to report the occurrence of relevant security events.
+This event generation is carried out through the use of specific functions, the most prominent of which are [AuthzReportSecurityEvent()](https://learn.microsoft.com/en-us/windows/win32/api/authz/nf-authz-authzreportsecurityevent) or [AuthzReportSecurityEventFromParams ()](https://learn.microsoft.com/en-us/windows/win32/api/authz/nf-authz-authzreportsecurityeventfromparams). These functions allow components to report the occurrence of relevant security events.
 
 
 #### **2. Communication with LSASS.exe**
