@@ -241,8 +241,12 @@ The Cobalt Strike implementation will:
 
 Monitoring the loading of such libraries can help reveal attempts to execute .NET assemblies in unusual or unexpected contexts, which can be a sign of malicious activity. 
 In the next image, on the left-hand side
+
 1º Execute Seatbetl with the argument TokenPrivileges
-2ºExecute SilkETW, with this argumentes: SilkETW.exe -t user -pn Microsoft-Windows-DotNETRuntime -uk 0x2038 -ot eventlog
+
+2ºExecute SilkETW, with this argumentes: 
+
+``SilkETW.exe -t user -pn Microsoft-Windows-DotNETRuntime -uk 0x2038 -ot eventlog``
 
 
 
