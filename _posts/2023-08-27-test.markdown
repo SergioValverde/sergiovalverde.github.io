@@ -146,7 +146,7 @@ In particular, these tools implement similar techniques:
 
 -	[Donut](https://github.com/TheWover/donut/blob/master/loader/bypass.c#L365)
 -	[SharpBlock](https://github.com/CCob/SharpBlock/blob/master/Program.cs)
--	[SharpSploit](falta)
+-	[SharpSploit](https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Evasion/ETW.cs)
 
 This technique is well known y the most important limit is that this attack will only patch event raised in usermode. 
 As advocates we need to monitor these functions and identify if the value has been modified.
