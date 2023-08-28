@@ -352,15 +352,15 @@ Event ID 1: Process creation
 
 Event ID 2: A process changed a file creation time
 -	This event helps tracking the real creation time of a file. Attackers may change the file creation time of a backdoor to make it look like it was installed with the operating system.
+
 Event ID 3: Network connection
 -	The network connection event logs TCP/UDP connections on the machine.
 Example using Sliver C&C
 
 
-----
 
 ![test9.png](/uploads/Th-Eventos/test9.png)
-----
+
 
 
 Event ID 4: Sysmon service state changed
@@ -379,23 +379,33 @@ Event ID 8: CreateRemoteThread
 -	Sysmon will log EventID 8 for all processes that use the Win32 API CreateRemoteThread call. Very common function to load shellcodes or process injection, allows you to start a thread in a process other than your own
 
 Event ID 9: RawAccessRead
+
 Event ID 10: ProcessAccess
 -	This enables detection of hacking tools that read the memory contents of processes like Local Security Authority (Lsass.exe). For example, dumpeo de la base de datos con mimikatz
+
 Event ID 11: FileCreate
 -	Trazabilidad
+
 Event ID 12: RegistryEvent (Object create and delete)
+
 Event ID 13: RegistryEvent (Value Set)
+
 Event ID 14: RegistryEvent (Key and Value Rename)
 -	Monitor Windows Registry
+
 Event ID 15: FileCreateStreamHash
+
 Event ID 16: ServiceConfigurationChange
 -	Escalada de privilegios / Persistencia
+
 Event ID 17: PipeEvent (Pipe Created)
+
 Event ID 18: PipeEvent (Pipe Connected)
 -	Comunicación con los C&C
-Event ID 19: WmiEvent (WmiEventFilter activity detected)
-Event ID 20: WmiEvent (WmiEventConsumer activity detected)
-Event ID 21: WmiEvent (WmiEventConsumerToFilter activity detected)
+
+Event ID 19,20,21: WmiEvent (WmiEventFilter activity detected) - (WmiEventConsumer activity detected) - (WmiEventConsumerToFilter activity detected)
+
+
 Wmi is uses for:
 o	Discovery 
 o	Execution commandos
