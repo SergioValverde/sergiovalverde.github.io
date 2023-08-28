@@ -261,7 +261,7 @@ Right side we see the logs generated, identifying the clr.dll library.
 
 We can include yara rules to increase the detection of these libraries.
 To detect the use of the clrjit.dll & clr.dll libraries, you can create a YARA rule like the following:
-We can write our yara rule
+
 
 ~~~ ruby
 rule detect_clr_libraries {
