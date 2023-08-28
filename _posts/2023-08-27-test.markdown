@@ -100,7 +100,7 @@ graph TD;
     EtwWriteEventFull-->NtTraceEvent;
     NtTraceEvent-->ETW;
 ```
-
+<i class="fa-solid fa-code"></i>
 
 
 And finally The Windows Event Log service writes events to the security event log.
