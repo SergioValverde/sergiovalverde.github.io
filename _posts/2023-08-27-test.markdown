@@ -477,7 +477,9 @@ https://medium.com/@matterpreter/shhmon-silencing-sysmon-via-driver-unload-682b5
 ###### Detection Example 1: Detecting DLL Hijacking
 
 1º Find vulnerable DLL
-En este ejemplo, conocemos que calc.exe es vulnerable a dll sideloading, a través de la herramienta process monitor, detectar que dll no se encuentran. 
+
+In this example, we know that calc.exe is vulnerable to dll sideloading, through the process monitor tool, we detect that dlls are not found.  
+
 ```
 DLL search order hijacking: DLLs specified by an application without a path are searched for in fixed locations in a specific order [3]. Hijacking the search order takes place by putting the evil DLL in a location that is searched in before the actual DLL. This sometimes includes the working directory of the target application.
 ```
