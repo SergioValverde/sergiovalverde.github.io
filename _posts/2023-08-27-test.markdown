@@ -427,11 +427,17 @@ Example using a Sliver
 
 Event ID 23: FileDelete (File Delete archived)
 -	- Traceability, identifying which information is removed by attackers, such as tools
+
 Event ID 24: ClipboardChange (New content in the clipboard)
+
 Event ID 25: ProcessTampering (Process image change)
+
 Event ID 26: FileDeleteDetected (File Delete logged)
+
 Event ID 27: FileBlockExecutable
+
 Event ID 28: FileBlockShredding
+
 Event ID 29: FileExecutableDetected
 
 
