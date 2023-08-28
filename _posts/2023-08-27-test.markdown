@@ -451,7 +451,7 @@ Regarding the security of Sysmon, we must evaluate what rules exist within the c
 
 - Identifying the configuration
 
-* * * * * .\sysmon -c will show us the location of the file
+sysmon -c will show us the location of the file
 
 
 
