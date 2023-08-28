@@ -345,7 +345,7 @@ Sysmons events and configuration
 [https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
 
 
-ysmon helps us to increase the visibility and traceability of our equipment.
+Sysmon helps us to increase the visibility and traceability of our equipment.
 
 Event ID 1: Process creation
 - Traceability of a process, this first process will be associated to a session logon.
