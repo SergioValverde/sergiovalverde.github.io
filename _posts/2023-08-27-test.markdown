@@ -292,9 +292,13 @@ I will use the following tool:
 
 The tool works as follows:
 
-1º Obtain the list of attributes of a process, with the objective of obtaining the information that a process stores, such as the associated token, threads among others, such as statupinfo, this provides essential configuration for process creation.
+First step, Obtain the list of attributes of a process, with the objective of obtaining the information that a process stores, such as the associated token, threads among others, such as statupinfo, this provides essential configuration for process creation.
+
 To create this list of attributes we will use InitializeProcThreadAttributeList(), this function will be called twice, in a first occasion, to obtain the size of the list of attributes and for a later initialization.
+
 An intermediate step, between these two calls, is to create a handle to the Parent Process ID that we want to spoof.  
+
+
 Finally, we update the attributes with UpdateProcThreadAttribute.
 
 And finally we call the CreateProcessFromParent() function, passing the arguments of our parent process and the executable we want to launch. 
