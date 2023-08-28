@@ -470,7 +470,7 @@ is ideal to focus on exclude rules. The rationale should be evident – any excl
 
 
 
-Evading DNS querys with paching DnsApi.dll  
+- Evading DNS querys with paching DnsApi.dll  
 https://blog.xpnsec.com/evading-sysmon-dns-monitoring/
 
 -	Patching NtTraceEvent
