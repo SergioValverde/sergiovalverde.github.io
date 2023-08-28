@@ -460,7 +460,7 @@ is ideal to focus on exclude rules. The rationale should be evident – any excl
 -	Avoiding rules present in include rules.
 
 ```
--	https://specterops.io/wp-content/uploads/sites/3/2022/06/Subverting_Sysmon.pdf
+-	More information https://specterops.io/wp-content/uploads/sites/3/2022/06/Subverting_Sysmon.pdf
 
 
 
