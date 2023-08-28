@@ -347,10 +347,10 @@ Sysmons events and configuration
 
 Sysmon helps us to increase the visibility and traceability of our equipment.
 
-Event ID 1: Process creation
+**Event ID 1: Process creation**
 - Traceability of a process, this first process will be associated to a session logon.
 
-Event ID 2: A process changed a file creation time
+**Event ID 2: A process changed a file creation time**
 -	This event helps tracking the real creation time of a file. Attackers may change the file creation time of a backdoor to make it look like it was installed with the operating system.
 
 Event ID 3: Network connection
