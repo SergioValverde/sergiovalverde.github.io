@@ -353,7 +353,7 @@ Sysmon helps us to increase the visibility and traceability of our equipment.
 **Event ID 2: A process changed a file creation time**
 -	This event helps tracking the real creation time of a file. Attackers may change the file creation time of a backdoor to make it look like it was installed with the operating system.
 
-Event ID 3: Network connection
+**Event ID 3: Network connection**
 -	The network connection event logs TCP/UDP connections on the machine.
 Example using Sliver C&C
 
@@ -363,47 +363,46 @@ Example using Sliver C&C
 
 
 
-Event ID 4: Sysmon service state changed
+**Event ID 4: Sysmon service state changed**
 - Modifying the Sysmon service is known as a technique to hide in the network.
 
-Event ID 5: Process terminated
+**Event ID 5: Process terminated**
 - Traceability of a process
 
-Event ID 6: Driver loaded
+**Event ID 6: Driver loaded**
 - It informs us when a driver is loaded. Loading a driver is used to have the necessary permissions to modify ETW or modify the driver of an EDR. Mimikatz, for example, loads a driver into the system.
 
-Event ID 7: Image loaded
+**Event ID 7: Image loaded**
 - DLL Injection Detection
 
-Event ID 8: CreateRemoteThread
+**Event ID 8: CreateRemoteThread**
 -	Sysmon will log EventID 8 for all processes that use the Win32 API CreateRemoteThread call. Very common function to load shellcodes or process injection, allows you to start a thread in a process other than your own
 
-Event ID 9: RawAccessRead
+**Event ID 9: RawAccessRead**
 
-Event ID 10: ProcessAccess
+**Event ID 10: ProcessAccess**
 -	This enables detection of hacking tools that read the memory contents of processes like Local Security Authority (Lsass.exe). For example, dumpeo de la base de datos con mimikatz
 
-Event ID 11: FileCreate
+**Event ID 11: FileCreate**
 -	Trazabilidad
 
-Event ID 12: RegistryEvent (Object create and delete)
+**Event ID 12: RegistryEvent (Object create and delete)**
 
-Event ID 13: RegistryEvent (Value Set)
+**Event ID 13: RegistryEvent (Value Set)**
 
-Event ID 14: RegistryEvent (Key and Value Rename)
+**Event ID 14: RegistryEvent (Key and Value Rename)**
 -	Monitor Windows Registry
 
-Event ID 15: FileCreateStreamHash
+**Event ID 15: FileCreateStreamHash**
 
-Event ID 16: ServiceConfigurationChange
+**Event ID 16: ServiceConfigurationChange**
 -	Escalada de privilegios / Persistencia
 
-Event ID 17: PipeEvent (Pipe Created)
+**Event ID 17/18: PipeEvent (Pipe Created) & (Pipe Connected)**
 
-Event ID 18: PipeEvent (Pipe Connected)
 -	Comunicación con los C&C
 
-Event ID 19,20,21: WmiEvent (WmiEventFilter activity detected) - (WmiEventConsumer activity detected) - (WmiEventConsumerToFilter activity detected)
+**Event ID 19,20,21: WmiEvent (WmiEventFilter activity detected) - (WmiEventConsumer activity detected) - (WmiEventConsumerToFilter activity detected)**
 
 
 Wmi is uses for:
