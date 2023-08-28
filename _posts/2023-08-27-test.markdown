@@ -409,14 +409,7 @@ Example using Sliver C&C
 **Event ID 19,20,21: WmiEvent (WmiEventFilter activity detected) - (WmiEventConsumer activity detected) - (WmiEventConsumerToFilter activity detected)**
 
 
-Wmi is uses for:
-o	Discovery 
-o	Execution commandos
-o	Persistencia
-o	Evasion
-o	C&C communication 
-o	Lateral Movement
-o	Exfiltration
+Wmi is uses for: Discovery Execution commandos, Persistencia, Evasion, C&C communication, Lateral Movement, Exfiltration
 
 -	Bitdefender-Whitepaper-WMI: A Decade of WMI Abuse – an Overview of Techniques in Modern Malware
 
