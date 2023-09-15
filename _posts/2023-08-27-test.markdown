@@ -574,6 +574,10 @@ Within the svchost.exe process, there are different threads running to execute t
 Constantly updated 😉
 
 ------
+Update
+
+More detection => [https://www.elastic.co/security-labs/hunting-memory](https://www.elastic.co/security-labs/hunting-memory)
+------
 
 
 ##### Thanks to:
