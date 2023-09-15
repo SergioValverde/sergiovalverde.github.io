@@ -579,6 +579,7 @@ Update
 
 More detection => [https://www.elastic.co/security-labs/hunting-memory](https://www.elastic.co/security-labs/hunting-memory)
 
+More blind sysmon = [https://tccontre.blogspot.com/2023/08/reg-restore-odyssey-journey-to.html?m=1](https://tccontre.blogspot.com/2023/08/reg-restore-odyssey-journey-to.html?m=1)
 
 ------
 
