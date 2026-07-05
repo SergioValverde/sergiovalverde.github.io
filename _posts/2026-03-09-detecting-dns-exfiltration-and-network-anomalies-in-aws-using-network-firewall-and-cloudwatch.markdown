@@ -2,6 +2,7 @@
 title: Detecting DNS Exfiltration and Network Anomalies in AWS Using Network Firewall
   and CloudWatch
 date: 2026-03-09 21:32:00 +01:00
+license: false
 show_subscribe: false
 ---
 
