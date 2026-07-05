@@ -14,15 +14,6 @@ The goal was to design and validate a defensive layer using AWS WAF to protect t
 
 The architecture follows a typical serverless web application pattern:
 
-<pre class="mermaid">
-graph TD
-  Client["Client"] --> WAF["AWS WAF Web ACL"] --> Gateway["Amazon API Gateway"] --> Lambda["AWS Lambda"] --> RDS["Amazon RDS MySQL"]
-</pre>
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
-
---------------
------------------
----------------
 
 <style>
   .mermaid-wrapper {
