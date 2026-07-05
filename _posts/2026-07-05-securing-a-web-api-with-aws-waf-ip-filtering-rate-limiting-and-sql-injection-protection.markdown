@@ -23,6 +23,16 @@ AWS Lambda
   ↓
 Amazon RDS MySQL
 
+```mermaid
+graph TD
+    A[Client] --> B[AWS WAF Web ACL]
+    B --> C[Amazon API Gateway]
+    C --> D[AWS Lambda]
+    D --> E[(Amazon RDS MySQL)]
+```
+
+
+
 The API exposes inventory data, which should only be consumed by trusted partners. Because the backend database contains sensitive business information, the API needed stronger controls at the edge before requests reached the application logic.
 
 ## What I implemented
