@@ -62,6 +62,9 @@ I used AWS WAF metrics and Amazon CloudWatch to review:
 
 This visibility is important because web application security should not rely only on prevention. Monitoring allows security teams to validate assumptions, detect abuse patterns, and tune rules based on real traffic.
 
+
+-----
+
 ### Key takeaway
 
 This project shows how AWS WAF can be used as a practical protection layer for API Gateway workloads. By combining default-deny logic, IP filtering, rate limiting, managed rule groups, and CloudWatch metrics, it is possible to reduce exposure to common web threats before requests reach the application backend.
