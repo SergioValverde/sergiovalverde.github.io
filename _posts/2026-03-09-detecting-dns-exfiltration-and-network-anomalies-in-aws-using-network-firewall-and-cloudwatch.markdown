@@ -96,7 +96,7 @@ Using CloudWatch Log Insights queries, several detection patterns were identifie
 
 By correlating these signals with instance metadata, it becomes possible to attribute malicious activity to specific EC2 instances within the environment.
 
-This approach demonstrates how network telemetry can be used to detect post-compromise behavior in cloud environments.
+This approach demonstrates how network telemetry can be used to detect post-compromise behaviour in cloud environments.
 
 Full Technical Report (PDF):
 
