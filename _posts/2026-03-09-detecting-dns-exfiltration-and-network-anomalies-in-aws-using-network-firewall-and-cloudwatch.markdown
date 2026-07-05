@@ -3,6 +3,7 @@ title: Detecting DNS Exfiltration and Network Anomalies in AWS Using Network Fir
   and CloudWatch
 date: 2026-03-09 21:32:00 +01:00
 license: false
+show_edit_on_github: false
 show_subscribe: false
 ---
 
