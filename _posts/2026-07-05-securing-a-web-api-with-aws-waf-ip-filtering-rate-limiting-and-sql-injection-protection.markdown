@@ -20,6 +20,33 @@ graph TD
 </pre>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
 
+--------------
+-----------------
+---------------
+
+<style>
+  .mermaid-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+  }
+
+  .mermaid-wrapper svg {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
+<div class="mermaid-wrapper">
+  <pre class="mermaid">
+graph TD
+  Client["Client"] --> WAF["AWS WAF Web ACL"] --> Gateway["Amazon API Gateway"] --> Lambda["AWS Lambda"] --> RDS["Amazon RDS MySQL"]
+  </pre>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+
 
 The API exposes inventory data, which should only be consumed by trusted partners. Because the backend database contains sensitive business information, the API needed stronger controls at the edge before requests reached the application logic.
 
