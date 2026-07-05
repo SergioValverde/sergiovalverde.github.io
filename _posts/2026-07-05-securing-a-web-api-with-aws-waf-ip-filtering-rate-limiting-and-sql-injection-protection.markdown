@@ -73,6 +73,3 @@ Full Technical Report (PDF):
 [https://github.com/SergioValverde/AWS-Labs/blob/main/secure_web_app_aws_waf.pdf](https://github.com/SergioValverde/AWS-Labs/blob/main/secure_web_app_aws_waf.pdf)
 
 ---
-...
-author: SErgio
----
