@@ -100,5 +100,5 @@ This approach demonstrates how network telemetry can be used to detect post-comp
 
 Full Technical Report (PDF):
 
-[https://github.com/SergioValverde/AWS-Labs/blob/main/Threat%20Hunting%20AWS.pdf](https://github.com/SergioValverde/AWS-Labs/blob/main/Threat%20Hunting%20AWS.pdf)
 
+[https://github.com/SergioValverde/AWS-Labs/blob/main/Threat%20Hunting%20AWS.pdf](https://github.com/SergioValverde/AWS-Labs/blob/main/Threat%20Hunting%20AWS.pdf)
