@@ -2,6 +2,8 @@
 title: 'Securing a Web API with AWS WAF: IP Filtering, Rate Limiting and SQL Injection
   Protection'
 date: 2026-07-05 16:26:00 +02:00
+show_author_profile: true
+Field name: 
 ---
 
 Modern web applications expose APIs that are often directly connected to sensitive backend systems. In this project, I worked on securing a REST API hosted behind Amazon API Gateway and connected to a backend Lambda function and an Amazon RDS MySQL database.
@@ -68,3 +70,8 @@ The full technical write-up includes the complete architecture, AWS WAF configur
 Full Technical Report (PDF):
 
 [https://github.com/SergioValverde/AWS-Labs/blob/main/secure_web_app_aws_waf.pdf](https://github.com/SergioValverde/AWS-Labs/blob/main/secure_web_app_aws_waf.pdf)
+
+---
+...
+author: SErgio
+---
