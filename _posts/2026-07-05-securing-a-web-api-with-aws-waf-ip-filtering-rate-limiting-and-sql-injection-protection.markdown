@@ -3,7 +3,7 @@ title: 'Securing a Web API with AWS WAF: IP Filtering, Rate Limiting and SQL Inj
   Protection'
 date: 2026-07-05 16:26:00 +02:00
 show_subscribe: false
-show_author_profile: true
+show_author_profile: false
 Field name: 
 ---
 
