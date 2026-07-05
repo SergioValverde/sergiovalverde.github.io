@@ -14,43 +14,15 @@ The goal was to design and validate a defensive layer using AWS WAF to protect t
 
 The architecture follows a typical serverless web application pattern:
 
-Client
-  ↓
-AWS WAF Web ACL
-  ↓
-Amazon API Gateway
-  ↓
-AWS Lambda
-  ↓
-Amazon RDS MySQL
-
-
-```mermaid
-graph TD
-    A[Client] --> B[AWS WAF Web ACL]
-    B --> C[Amazon API Gateway]
-    C --> D[AWS Lambda]
-    D --> E[(Amazon RDS MySQL)]
-```
-
 <pre class="mermaid">
-graph LR
-  a --- b & c --- d
+graph TD
+  Client --> AWSWAF["AWS WAF Web ACL"]
+  AWSWAF --> APIGW["Amazon API Gateway"]
+  APIGW --> Lambda["AWS Lambda"]
+  Lambda --> RDS["Amazon RDS MySQL"]
 </pre>
+
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
-
-
----
----
---------
-'''mermaid
-    graph TD;
-        A-->B;
-        A-->C;
-        B-->D;
-        C-->D;
-    '''
-
 
 
 The API exposes inventory data, which should only be consumed by trusted partners. Because the backend database contains sensitive business information, the API needed stronger controls at the edge before requests reached the application logic.
