@@ -5,7 +5,7 @@ date: 2026-07-05 16:26:00 +02:00
 license: false
 show_subscribe: false
 show_author_profile: false
-mermaid: true
+mermaid: false
 ---
 
 Modern web applications expose APIs that are often directly connected to sensitive backend systems. In this project, I worked on securing a REST API hosted behind Amazon API Gateway and connected to a backend Lambda function and an Amazon RDS MySQL database.
