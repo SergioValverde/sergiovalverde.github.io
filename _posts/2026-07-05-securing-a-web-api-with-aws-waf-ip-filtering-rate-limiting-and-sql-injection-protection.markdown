@@ -65,6 +65,6 @@ This project shows how AWS WAF can be used as a practical protection layer for A
 
 The full technical write-up includes the complete architecture, AWS WAF configuration, rule explanations, test commands, screenshots, and validation results.
 
-Read the full technical report here:
-https://github.com/SergioValverde/AWS-Labs/blob/main/secure_web_app_aws_waf.pdf
+Full Technical Report (PDF):
 
+[https://github.com/SergioValverde/AWS-Labs/blob/main/secure_web_app_aws_waf.pdf](https://github.com/SergioValverde/AWS-Labs/blob/main/secure_web_app_aws_waf.pdf)
