@@ -22,7 +22,7 @@ Amazon RDS MySQL
 
 The API exposes inventory data, which should only be consumed by trusted partners. Because the backend database contains sensitive business information, the API needed stronger controls at the edge before requests reached the application logic.
 
-What I implemented
+## What I implemented
 
 The technical work focused on building a layered AWS WAF policy.
 
@@ -34,7 +34,7 @@ To reduce the risk of abuse and volumetric attacks, I added a rate-based rule. T
 
 Finally, I enabled an AWS managed SQL injection rule group to detect and block malicious query strings attempting to manipulate backend SQL queries.
 
-Attack scenarios tested
+## Attack scenarios tested
 
 The project validates several real-world attack and abuse cases:
 
@@ -45,21 +45,21 @@ Geo-based filtering as an additional access control
 
 Each control was tested against the API to confirm whether AWS WAF allowed, blocked, counted, or labeled requests as expected.
 
-Monitoring and visibility
+## Monitoring and visibility
 
 A key part of the project was not only blocking traffic, but also understanding what AWS WAF was detecting.
 
 I used AWS WAF metrics and Amazon CloudWatch to review:
 
-allowed requests
-blocked requests
-rate-limited traffic
-SQL injection detections
-rule matches and labels
+* allowed requests
+* blocked requests
+* rate-limited traffic
+* SQL injection detections
+* rule matches and labels
 
 This visibility is important because web application security should not rely only on prevention. Monitoring allows security teams to validate assumptions, detect abuse patterns, and tune rules based on real traffic.
 
-Key takeaway
+### Key takeaway
 
 This project shows how AWS WAF can be used as a practical protection layer for API Gateway workloads. By combining default-deny logic, IP filtering, rate limiting, managed rule groups, and CloudWatch metrics, it is possible to reduce exposure to common web threats before requests reach the application backend.
 
