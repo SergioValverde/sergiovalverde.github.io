@@ -23,11 +23,6 @@ AWS Lambda
   ↓
 Amazon RDS MySQL
 
----
-layout: article
-title: Arquitectura con AWS WAF, API Gateway, Lambda y RDS
-mermaid: true
----
 
 ```mermaid
 graph TD
