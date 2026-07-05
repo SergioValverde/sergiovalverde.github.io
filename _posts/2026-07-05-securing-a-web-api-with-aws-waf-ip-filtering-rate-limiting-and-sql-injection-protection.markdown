@@ -5,7 +5,7 @@ date: 2026-07-05 16:26:00 +02:00
 license: false
 show_subscribe: false
 show_author_profile: false
-mermaid: false
+mermaid: true
 ---
 
 Modern web applications expose APIs that are often directly connected to sensitive backend systems. In this project, I worked on securing a REST API hosted behind Amazon API Gateway and connected to a backend Lambda function and an Amazon RDS MySQL database.
@@ -13,6 +13,13 @@ Modern web applications expose APIs that are often directly connected to sensiti
 The goal was to design and validate a defensive layer using AWS WAF to protect the API from unauthorized access, excessive request volume, and common web application attacks such as SQL injection.
 
 The architecture follows a typical serverless web application pattern:
+
+<pre class="mermaid">
+graph TD
+  Client["Client"] --> WAF["AWS WAF Web ACL"] --> Gateway["Amazon API Gateway"] --> Lambda["AWS Lambda"] --> RDS["Amazon RDS MySQL"]
+</pre>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
 
 
 The API exposes inventory data, which should only be consumed by trusted partners. Because the backend database contains sensitive business information, the API needed stronger controls at the edge before requests reached the application logic.
