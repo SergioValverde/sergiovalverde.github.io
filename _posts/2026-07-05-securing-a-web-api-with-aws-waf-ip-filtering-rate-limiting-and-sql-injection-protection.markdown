@@ -57,10 +57,10 @@ Finally, I enabled an AWS managed SQL injection rule group to detect and block m
 
 The project validates several real-world attack and abuse cases:
 
-Requests from non-authorized IP addresses
-Excessive API requests from the same source
-SQL injection payloads in query parameters
-Geo-based filtering as an additional access control
+* Requests from non-authorized IP addresses
+* Excessive API requests from the same source
+* SQL injection payloads in query parameters
+* Geo-based filtering as an additional access control
 
 Each control was tested against the API to confirm whether AWS WAF allowed, blocked, counted, or labeled requests as expected.
 
