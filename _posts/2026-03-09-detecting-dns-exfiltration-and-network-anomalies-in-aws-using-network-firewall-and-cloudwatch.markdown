@@ -4,6 +4,12 @@ title: Detecting DNS Exfiltration and Network Anomalies in AWS Using Network Fir
 date: 2026-03-09 21:32:00 +01:00
 ---
 
+---
+...
+author: Tian Qi
+show_author_profile: true
+---
+
 # Introduction
 
 Modern cloud environments often operate across multiple virtual networks and rely heavily on outbound connectivity. While this architecture enables scalability and flexibility, it also introduces visibility challenges. In many AWS deployments, outbound traffic from workloads can leave the environment without deep inspection or centralized monitoring.
