@@ -33,6 +33,12 @@ graph TD
     D --> E[(Amazon RDS MySQL)]
 ```
 
+<pre class="mermaid">
+graph LR
+  a --- b & c --- d
+</pre>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+
 
 
 The API exposes inventory data, which should only be consumed by trusted partners. Because the backend database contains sensitive business information, the API needed stronger controls at the edge before requests reached the application logic.
