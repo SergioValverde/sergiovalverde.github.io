@@ -18,7 +18,6 @@ The architecture follows a typical serverless web application pattern:
 graph TD
   Client["Client"] --> WAF["AWS WAF Web ACL"] --> Gateway["Amazon API Gateway"] --> Lambda["AWS Lambda"] --> RDS["Amazon RDS MySQL"]
 </pre>
-
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
 
 
