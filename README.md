@@ -46,6 +46,3 @@ This site is primarily intended for:
 * Detection engineers
 * Application security professionals
 * Recruiters and hiring managers reviewing practical security work
-
-
-Site content and code licensing should be reviewed before reuse. The underlying theme is MIT licensed.
