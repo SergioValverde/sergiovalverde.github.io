@@ -10,6 +10,7 @@ license: false
 show_edit_on_github: false
 show_subscribe: false
 pageview: true
+mermaid: true
 ---
 
 # From Infrastructure to Configuration: Automating a Secure Elastic Stack on AWS with Terraform and Ansible
