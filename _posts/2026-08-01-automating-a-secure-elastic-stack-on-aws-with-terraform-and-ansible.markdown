@@ -20,7 +20,6 @@ In this project, I explored how **Terraform and Ansible can be combined while ma
 
 The result is an automated workflow that provisions AWS infrastructure, configures an EC2 host, and deploys a secured Elasticsearch and Kibana environment. The project focuses on reproducibility, idempotency, security controls, and complete infrastructure lifecycle management.
 
-Elasticsearch and Kibana are the workload used to validate the automation model. The primary objective is demonstrating how Terraform and Ansible can work together without duplicating or mixing their responsibilities.
 
 ## Architecture Overview
 
