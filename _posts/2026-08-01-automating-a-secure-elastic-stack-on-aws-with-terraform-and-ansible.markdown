@@ -26,11 +26,49 @@ The result is an automated workflow that provisions AWS infrastructure, configur
 
 The environment is deployed in a custom AWS VPC and uses a single EC2 instance to run Elasticsearch and Kibana through Docker Compose.
 
-<style> .mermaid-wrapper { width: 100%; display: flex; justify-content: center; margin: 24px 0; } .mermaid-wrapper svg { max-width: 100%; height: auto; } </style>
+<style>
+  .mermaid-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+  }
 
-<div class="mermaid-wrapper"> <pre class="mermaid"> graph TD Operator["Operator workstation"] --> Terraform["Terraform provisions AWS infrastructure"] --> EC2["EC2 instance + Elastic IP"] --> Ansible["Ansible configures the host"] --> Docker["Docker Compose"] Docker --> ES["Elasticsearch"] Docker --> KB["Kibana"] </pre> </div>
+  .mermaid-wrapper svg {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
+<div class="mermaid-wrapper">
+  <pre class="mermaid">
+flowchart TD
+    Operator["Operator workstation"]
+    Terraform["Terraform provisions AWS infrastructure"]
+    EC2["EC2 instance and Elastic IP"]
+    Ansible["Ansible configures the host"]
+    Docker["Docker Compose"]
+    ES["Elasticsearch"]
+    KB["Kibana"]
+
+    Operator --> Terraform
+    Terraform --> EC2
+    EC2 --> Ansible
+    Ansible --> Docker
+    Docker --> ES
+    Docker --> KB
+  </pre>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+
+<script>
+  mermaid.initialize({
+    startOnLoad: true,
+    securityLevel: "loose",
+    theme: "default"
+  });
+</script>
 
 ```text
 Operator workstation
