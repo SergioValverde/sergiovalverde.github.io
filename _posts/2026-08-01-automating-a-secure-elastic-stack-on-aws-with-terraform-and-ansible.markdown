@@ -238,7 +238,7 @@ A client must originate from an approved source, connect through the permitted n
 
 The project was tested across the complete workflow:
 
-```
+
 
 <div class="mermaid-wrapper">
   <pre class="mermaid">
