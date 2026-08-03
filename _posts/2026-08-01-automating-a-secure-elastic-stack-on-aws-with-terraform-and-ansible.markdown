@@ -143,21 +143,6 @@ The main configuration then installs and manages Docker, prepares the Elastic St
 
 The deployment order is controlled:
 
-```text
-Validate the host
-        ↓
-Install and start Docker
-        ↓
-Generate TLS material
-        ↓
-Deploy Elasticsearch
-        ↓
-Configure the Kibana service account
-        ↓
-Deploy Kibana
-        ↓
-Validate both services over HTTPS
-```
 
 <div class="mermaid-wrapper">
   <pre class="mermaid">
@@ -178,22 +163,7 @@ Ansible is not being used as a sequence of remote shell commands. The playbooks 
 
 The most relevant part of the project is the handoff between infrastructure provisioning and configuration management.
 
-```text
 
-Terraform provisions EC2
-        ↓
-Terraform returns the Elastic IP
-        ↓
-The deployment workflow waits for SSH
-        ↓
-The SSH host fingerprint is reviewed
-        ↓
-Ansible receives the instance as inventory
-        ↓
-Ansible configures the host
-        ↓
-The services are validated
-```
 <div class="mermaid-wrapper">
   <pre class="mermaid">
 flowchart TD
@@ -266,18 +236,6 @@ A client must originate from an approved source, connect through the permitted n
 
 The project was tested across the complete workflow:
 
-```text
-Provision
-    ↓
-Configure
-    ↓
-Validate
-    ↓
-Reapply idempotently
-    ↓
-Destroy
-    ↓
-Recreate
 ```
 
 <div class="mermaid-wrapper">
