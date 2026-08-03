@@ -267,6 +267,18 @@ Destroy
 Recreate
 ```
 
+<div class="mermaid-wrapper">
+  <pre class="mermaid">
+flowchart TD
+  Provision["Provision"]
+    --> Configure["Configure"]
+    --> Validate["Validate"]
+    --> Reapply["Reapply idempotently"]
+    --> Destroy["Destroy"]
+    --> Recreate["Recreate"]
+  </pre>
+</div>
+
 Validation included:
 
 * Clean Terraform provisioning
