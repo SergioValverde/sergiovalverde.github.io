@@ -159,6 +159,19 @@ Deploy Kibana
 Validate both services over HTTPS
 ```
 
+<div class="mermaid-wrapper">
+  <pre class="mermaid">
+flowchart TD
+  ValidateHost["Validate the host"]
+    --> InstallDocker["Install and start Docker"]
+    --> GenerateTLS["Generate TLS material"]
+    --> DeployElasticsearch["Deploy Elasticsearch"]
+    --> ConfigureKibana["Configure the Kibana service account"]
+    --> DeployKibana["Deploy Kibana"]
+    --> ValidateServices["Validate both services over HTTPS"]
+  </pre>
+</div>
+
 Ansible is not being used as a sequence of remote shell commands. The playbooks declare the required state of the host and converge the instance toward that state.
 
 ## Connecting Terraform and Ansible
