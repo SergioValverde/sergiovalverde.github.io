@@ -179,7 +179,7 @@ flowchart TD
   </pre>
 </div>
 
-The Bash scripts coordinate this workflow, but they do not replace Terraform or Ansible.
+The Bash scripts **coordinate this workflow**, but they do not replace Terraform or Ansible.
 
 Terraform still performs infrastructure planning and state management. Ansible still performs host configuration. The scripts provide a consistent execution path between both tools.
 
@@ -293,12 +293,12 @@ The most important outcome of this project is not simply an EC2 instance running
 
 The project demonstrates how Terraform and Ansible can be combined while preserving clear ownership of each automation layer:
 
-```text
-Terraform manages infrastructure
-Ansible manages configuration
-Docker Compose manages services
-Bash coordinates the workflow
-```
+
+* Terraform manages infrastructure
+* Ansible manages configuration
+* Docker Compose manages services
+* Bash coordinates the workflow
+
 
 Terraform provisions and manages the AWS resources. Ansible converts the resulting EC2 instance into the required application platform. The orchestration layer connects both stages without hiding their native workflows.
 
