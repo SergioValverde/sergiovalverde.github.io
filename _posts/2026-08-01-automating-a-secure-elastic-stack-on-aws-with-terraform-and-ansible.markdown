@@ -166,6 +166,7 @@ Ansible is not being used as a sequence of remote shell commands. The playbooks 
 The most relevant part of the project is the handoff between infrastructure provisioning and configuration management.
 
 ```text
+
 Terraform provisions EC2
         ↓
 Terraform returns the Elastic IP
@@ -180,6 +181,18 @@ Ansible configures the host
         ↓
 The services are validated
 ```
+<div class="mermaid-wrapper">
+  <pre class="mermaid">
+flowchart TD
+  Terraform["Terraform provisions EC2"]
+    --> ElasticIP["Terraform returns the Elastic IP"]
+    --> SSHWait["The deployment workflow waits for SSH"]
+    --> Fingerprint["The SSH host fingerprint is reviewed"]
+    --> Inventory["Ansible receives the instance as inventory"]
+    --> Configure["Ansible configures the host"]
+    --> Validate["The services are validated"]
+  </pre>
+</div>
 
 The Bash scripts coordinate this workflow, but they do not replace Terraform or Ansible.
 
