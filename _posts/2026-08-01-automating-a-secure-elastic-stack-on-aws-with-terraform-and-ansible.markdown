@@ -123,13 +123,15 @@ Terraform also produces the outputs required by the next automation stage. In pa
 
 This creates a clear boundary:
 
-```text
-Terraform creates the infrastructure
-        ↓
-Terraform exposes the required outputs
-        ↓
-The configuration stage consumes those outputs
-```
+<div class="mermaid-wrapper">
+  <pre class="mermaid">
+flowchart TD
+  CreateInfrastructure["Terraform creates the infrastructure"]
+    --> ExposeOutputs["Terraform exposes the required outputs"]
+    --> ConsumeOutputs["The configuration stage consumes those outputs"]
+  </pre>
+</div>
+
 
 Terraform remains responsible for the infrastructure lifecycle. It can create the environment, detect changes, and later remove the resources through a controlled destroy plan.
 
